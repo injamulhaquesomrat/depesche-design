@@ -1,0 +1,120 @@
+/* from 576px to 767px */
+@media (min-width: 576px) {
+  /* custom */
+  .container {
+    max-width: 540px;
+    padding-inline: 0;
+  }
+}
+/* from 768px to 991px */
+@media (min-width: 768px) {
+  /* custom */
+  .container {
+    max-width: 720px;
+  }
+  /* brands */
+  .brands .owl-nav button.owl-next {
+    right: -1rem;
+  }
+  .brands .owl-nav button.owl-prev {
+    justify-content: center;
+    left: -1rem;
+  }
+}
+/* from 992px to 1199px */
+@media (min-width: 992px) {
+  /* custom */
+  .container {
+    max-width: 960px;
+  }
+  /* hero section */
+  .hero-section {
+    flex-direction: row;
+    width: 100%;
+  }
+  .desktop-hero {
+    display: block;
+    margin: 0;
+  }
+  .desktop-hero img {
+    border-radius: 50% 0 0 50%;
+    height: 800px;
+    object-fit: cover;
+    position: relative;
+    right: -1px;
+  }
+  .mobile-hero {
+    display: none;
+  }
+
+  /* brands */
+  .brands .owl-nav button.owl-next {
+    right: -1.5rem;
+  }
+  .brands .owl-nav button.owl-prev {
+    justify-content: center;
+    left: -1.5rem;
+  }
+
+  /* video banner section  */
+  .vdo-content::before {
+    top: -5%;
+    left: -10%;
+    transform: rotate(-20deg);
+  }
+}
+/* from 1200 to 1439px */
+@media (min-width: 1200px) {
+  /* custom */
+  .container {
+    max-width: 1140px;
+  }
+  /* navbar */
+  .logo-content {
+    margin-right: auto;
+    margin-left: 24px;
+  }
+  .menu-list,
+  .service-list {
+    display: inline-flex;
+  }
+  .menu-list {
+    margin-right: auto;
+  }
+  .search-icon {
+    display: none;
+  }
+
+  /* hero section */
+  .hero-text-content {
+    margin-left: 10%;
+    padding: 0;
+    width: 80%;
+  }
+  .hero-bg-prop {
+    top: -8rem;
+    right: -4.5rem;
+  }
+  .hero-bg-wave-mobile {
+    display: none;
+  }
+  .hero-bg-wave-desktop {
+    display: block;
+    background-image: url(/assets/waves/wave_white_desktop.svg);
+  }
+  /* video banner section */
+  .video-bg-wave-mobile {
+    display: none;
+  }
+  .video-bg-wave-desktop {
+    display: block;
+    background-image: url(/assets/waves/wave_grey_desktop.svg);
+  }
+}
+/* for device more than 1440px */
+@media (min-width: 1440px) {
+  /* custom */
+  .container {
+    max-width: 1320px;
+  }
+}

@@ -1,0 +1,317 @@
+:root {
+  --dp-text: hsl(210, 10.81%, 14.51%);
+  --dp-orange: hsl(20.29, 92.05%, 70.39%);
+  --dp-gray: hsl(0, 0%, 72.16%);
+  --dp-blue: hsl(202.22, 29.67%, 82.16%);
+}
+
+body {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--dp-text);
+}
+/* custom */
+.wrapper {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px 0 hsla(0, 0%, 60%, 0.25);
+  background-color: #fff;
+}
+.container {
+  padding-inline: 1.5rem;
+  margin: 0 auto;
+}
+.btn {
+  padding: 22px 48px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: var(--dp-orange);
+}
+.btn-primary:hover {
+  background-color: #fab490;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: var(--dp-gray);
+}
+.btn-secondary:hover {
+  background-color: #cacaca;
+}
+.sub-heading {
+  text-transform: uppercase;
+  color: var(--dp-orange);
+  margin-bottom: 2rem;
+}
+.seaction-heading {
+  font-family: Playfair Display, sans-serif;
+  font-weight: 500;
+}
+.section-wave {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64px;
+  width: 100%;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  z-index: 100;
+}
+/* header */
+header {
+  margin: 0 auto;
+}
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  max-width: 1632px;
+  height: 64px;
+  margin: 0 auto;
+  width: calc(100% - 48px);
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 hsla(0, 0%, 60%, 0.1);
+  padding: 6px 14px;
+  background: #fff;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 16px;
+  transition: all 0.4s;
+  z-index: 1111;
+}
+.breadcrumb {
+  padding-inline: 10px;
+  padding-block: 6px;
+  border-radius: 5rem;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.breadcrumb:hover {
+  background-color: var(--dp-orange);
+}
+.fa-bars {
+  color: var(--dp-orange);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.breadcrumb:hover .fa-bars {
+  color: #fff;
+}
+.logo {
+  height: 40px;
+}
+.menu-list,
+.service-list {
+  display: none;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+.service-list .icon,
+.search-icon .icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: var(--dp-orange);
+  position: relative;
+  top: 3px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #666;
+  font-weight: 300;
+  padding: 8px 16px;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+}
+.nav-link::after {
+  transition: all 0.3s ease-out;
+  content: "";
+  height: 2px;
+  background-color: var(--dp-orange);
+  width: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
+  width: 60%;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: var(--dp-blue);
+  position: relative;
+}
+.hero-img-content {
+  width: 100%;
+  height: auto;
+}
+.img-container {
+  width: 100%;
+  margin: 0;
+}
+.desktop-hero {
+  display: none;
+}
+.hero-img-content img {
+  width: 100%;
+  object-fit: unset;
+}
+.hero-text-content {
+  padding: 2.5rem 1.5rem 6rem;
+  width: 100%;
+  position: relative;
+}
+.hero-text-container {
+  max-width: 528px;
+}
+.hero-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.hero-text {
+  font-weight: 300;
+  color: #000;
+}
+.fa-chevron-right {
+  transition: all 0.3s ease-in-out;
+  transform: translateX(10px);
+}
+.btn:hover .fa-chevron-right {
+  transform: translateX(20px);
+}
+.hero-bg-prop {
+  position: absolute;
+  width: 120px;
+  top: -80rem;
+  right: 0;
+}
+.hero-bg-wave-mobile {
+  background-image: url(/assets/waves/wave_white_mobile.svg);
+}
+.hero-bg-wave-desktop {
+  display: none;
+}
+
+/* brands */
+.brands-content {
+  padding: 55px 0 95px;
+}
+.brands {
+  padding-block: 2rem;
+}
+.brands .owl-stage {
+  width: 100%;
+  padding-top: 1rem;
+}
+.owl-nav {
+  width: 100%;
+}
+.brands .owl-nav button.owl-prev,
+.brands .owl-nav button.owl-next {
+  height: 3rem;
+  width: 3rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4rem;
+  box-shadow: 0 4px 8px 0 hsla(0, 0%, 40%, 0.25);
+  background-color: #fff !important;
+  z-index: 111;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
+.brands .owl-nav button.owl-prev:hover,
+.brands .owl-nav button.owl-next:hover {
+  opacity: 1;
+}
+.brands .owl-nav button i {
+  color: var(--dp-orange);
+}
+.brands .owl-nav button.owl-prev {
+  justify-content: center;
+  left: -1.5rem;
+}
+.brands .owl-nav button.owl-next {
+  right: -1.5rem;
+}
+.brands .owl-nav button.owl-next i {
+  padding-left: 10px;
+}
+.brands img {
+  transition: all 0.3s ease-out;
+}
+.brands figure:hover img {
+  transform: scale(1.05);
+}
+.brand-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* video banner section */
+.vdo-content {
+  text-align: center;
+  background-color: var(--dp-blue);
+  padding: 80px 0 120px;
+  overflow: hidden;
+  position: relative;
+}
+.vdo-content::before {
+  content: "";
+  background-color: #ffcaaf;
+  width: 25%;
+  height: 120%;
+  position: absolute;
+  z-index: 100;
+  top: -20%;
+  left: -20%;
+  transform: rotate(12deg);
+}
+.vdo-content .sub-heading {
+  color: #fff;
+}
+.vdo-content .seaction-heading {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.vdo-content video {
+  width: 100%;
+  max-width: 680px;
+  position: relative;
+  z-index: 200;
+}
+.video-bg-wave-mobile {
+  background-image: url(/assets/waves/wave_grey_mobile.svg);
+}
+.video-bg-wave-desktop {
+  display: none;
+}
