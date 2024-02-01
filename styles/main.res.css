@@ -12,6 +12,7 @@
   .container {
     max-width: 720px;
   }
+
   /* brands */
   .brands .owl-nav button.owl-next {
     right: -1rem;
@@ -19,6 +20,26 @@
   .brands .owl-nav button.owl-prev {
     justify-content: center;
     left: -1rem;
+  }
+
+  /* teaser section */
+  .teaser-item {
+    flex-direction: row;
+  }
+  .teaser-item:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
+  .teaser-img-content {
+    width: 40%;
+  }
+  .teaser-img-holder {
+    padding: 2rem;
+  }
+  .teaser-img {
+    margin-top: -64px;
+  }
+  .teaser-text-content {
+    width: 50%;
   }
 }
 /* from 992px to 1199px */
@@ -48,6 +69,7 @@
   }
 
   /* brands */
+  .products .owl-nav button.owl-next,
   .brands .owl-nav button.owl-next {
     right: -1.5rem;
   }
@@ -61,6 +83,9 @@
     top: -5%;
     left: -10%;
     transform: rotate(-20deg);
+  }
+  .vdo-prop {
+    right: 5%;
   }
 }
 /* from 1200 to 1439px */
