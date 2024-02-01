@@ -214,7 +214,7 @@ nav {
   right: 0;
 }
 .hero-bg-wave-mobile {
-  background-image: url(/assets/waves/wave_white_mobile.svg);
+  background-image: url(../assets/waves/wave_white_mobile.svg);
 }
 .hero-bg-wave-desktop {
   display: none;
@@ -310,7 +310,7 @@ nav {
   z-index: 200;
 }
 .video-bg-wave-mobile {
-  background-image: url(/assets/waves/wave_grey_mobile.svg);
+  background-image: url(../assets/waves/wave_grey_mobile.svg);
 }
 .video-bg-wave-desktop {
   display: none;

@@ -100,7 +100,7 @@
   }
   .hero-bg-wave-desktop {
     display: block;
-    background-image: url(/assets/waves/wave_white_desktop.svg);
+    background-image: url(../assets/waves/wave_white_desktop.svg);
   }
   /* video banner section */
   .video-bg-wave-mobile {
@@ -108,7 +108,7 @@
   }
   .video-bg-wave-desktop {
     display: block;
-    background-image: url(/assets/waves/wave_grey_desktop.svg);
+    background-image: url(../assets/waves/wave_grey_desktop.svg);
   }
 }
 /* for device more than 1440px */
