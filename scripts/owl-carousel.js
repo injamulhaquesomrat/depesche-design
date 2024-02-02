@@ -49,3 +49,26 @@ $(".products").owlCarousel({
     },
   },
 });
+
+// news
+$(".news").owlCarousel({
+  loop: true,
+  margin: 16,
+  nav: true,
+  navText: [
+    "<i class='fas fa-chevron-left'></i>",
+    "<i class='fas fa-chevron-right'></i>",
+  ],
+  dots: false,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    1200: {
+      items: 3,
+    },
+  },
+});
