@@ -1,7 +1,13 @@
 $(document).ready(function () {
   let lastScrollTop = 0;
   let navbarHeight = $("#navbar").outerHeight();
+  let dropdownContainer = $(".dropdown-container");
+  let breadcrumb = $(".breadcrumb");
+  let closeBtn = $(".close-btn");
+  let searchBar = $(".search-container");
+  let searchBtn = $(".search-item");
 
+  // hide navbar on scroll
   $(window).scroll(function () {
     let scrollTop = $(this).scrollTop();
 
@@ -13,15 +19,19 @@ $(document).ready(function () {
     lastScrollTop = scrollTop;
   });
 
-  let dropdownContainer = $(".dropdown-container");
-  let breadcrumb = $(".breadcrumb");
-  let closeBtn = $(".close-btn");
   // show dropdown container
   breadcrumb.on("click", function () {
     dropdownContainer.css("top", "0");
+    searchBar.css("top", "-800px");
   });
   // hide dropdown container
   closeBtn.on("click", function () {
     dropdownContainer.css("top", "-2000px");
+    searchBar.css("top", "-800px");
+  });
+
+  // dropdown searchbar
+  searchBtn.on("click", function () {
+    searchBar.css("top", "0");
   });
 });

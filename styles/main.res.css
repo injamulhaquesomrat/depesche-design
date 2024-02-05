@@ -313,6 +313,22 @@
     display: none;
   }
 
+  /* dropdown search */
+  .search-form {
+    padding: 3rem 0 4rem;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .search-box::placeholder {
+    font-size: 1rem;
+  }
+  .arrow-prop {
+    width: 200px;
+    position: absolute;
+    top: 7rem;
+    left: -2rem;
+  }
+
   /* hero section */
   .hero-text-content {
     margin-left: 10%;
