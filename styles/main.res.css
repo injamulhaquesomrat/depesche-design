@@ -118,6 +118,12 @@
   .about-banner-text {
     font-size: 2rem;
   }
+  .about-banner-wave-desktop {
+    display: block;
+  }
+  .about-banner-wave-mobile {
+    display: none;
+  }
 
   /* news section */
   .news-body .owl-carousel .item {
@@ -340,6 +346,11 @@
   }
   .dropdown-carousels {
     width: 75%;
+  }
+
+  /* about banner section */
+  .about-banner-wave-desktop {
+    width: 100%;
   }
 
   /* news section */

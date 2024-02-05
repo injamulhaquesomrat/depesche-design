@@ -593,6 +593,7 @@ nav {
 /* about banner section */
 .about-container {
   position: relative;
+  overflow: hidden;
 }
 .about-container figure {
   margin: 0;
@@ -630,6 +631,17 @@ nav {
   line-height: 1.63;
   color: #fff;
   margin-bottom: 2rem;
+}
+.about-banner-wave-mobile,
+.about-banner-wave-desktop {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  z-index: 400;
+  object-fit: cover;
+}
+.about-banner-wave-desktop {
+  display: none;
 }
 
 /* news section */
