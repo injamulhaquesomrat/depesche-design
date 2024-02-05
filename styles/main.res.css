@@ -22,6 +22,20 @@
   .container {
     max-width: 720px;
   }
+  .top-model-bg-wave-mobile,
+  .miss-melody-bg-wave-mobile,
+  .ylvi-bg-wave-mobile,
+  .trends-bg-wave-mobile,
+  .dino-world-bg-wave-mobile,
+  .princess-mimi-bg-wave-mobile,
+  .newsletter-bg-wave-mobile,
+  .hero-bg-wave-mobile,
+  .video-bg-wave-mobile,
+  .sales-banner-bg-wave-mobile,
+  .career-banner-bg-wave-mobile,
+  .newsletter-banner-bg-wave-mobile {
+    display: none;
+  }
 
   /* dropdown body  */
   .accordion-body {
@@ -41,10 +55,6 @@
   }
 
   /* hero section */
-
-  .hero-bg-wave-mobile {
-    display: none;
-  }
   .hero-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_white_desktop.svg);
@@ -80,18 +90,12 @@
   }
 
   /* video banner section */
-  .video-bg-wave-mobile {
-    display: none;
-  }
   .video-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_grey_desktop.svg);
   }
 
   /* sales banner section */
-  .sales-banner-bg-wave-mobile {
-    display: none;
-  }
   .sales-banner-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_lightgrey2-bg_desktop.svg);
@@ -134,18 +138,12 @@
   .career-teaser-item {
     flex-direction: row;
   }
-  .career-banner-bg-wave-mobile {
-    display: none;
-  }
   .career-banner-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_newsletter_desktop.svg);
   }
 
   /* newsletter section */
-  .newsletter-banner-bg-wave-mobile {
-    display: none;
-  }
   .newsletter-banner-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_footer_desktop.svg);
@@ -165,6 +163,48 @@
   }
   .footer-navbar .icon {
     font-size: 1rem;
+  }
+
+  /* brands page */
+  .brand-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .miss-melody .brand-content,
+  .ylvi .brand-content {
+    flex-direction: row-reverse;
+  }
+  .brands-img-content,
+  .brands-text-content {
+    width: 45%;
+  }
+  /* top model */
+  .top-model-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_topmodel-bg_desktop.svg);
+  }
+  /* miss melody */
+  .miss-melody-bg-wave-desktop,
+  .ylvi-bg-wave-desktop,
+  .trends-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_white_desktop.svg);
+  }
+  /* dino world */
+  .dino-world-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_dinoworld-bg_desktop.svg);
+  }
+  /* princess mimi */
+  .princess-mimi-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_princessmimi-bg_desktop.svg);
+  }
+  /* newsletter */
+  .newsletter-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_newsletter_desktop.svg);
   }
 }
 /* from 992px to 1199px */
@@ -203,7 +243,7 @@
     display: none;
   }
 
-  /* brands */
+  /* brands section */
   .products .owl-nav button.owl-next,
   .brands .owl-nav button.owl-next {
     right: -1.5rem;
@@ -285,6 +325,12 @@
     display: flex;
     justify-content: space-between;
   }
+
+  /* brands page */
+  .brands-img-content,
+  .brands-text-content {
+    width: 40%;
+  }
 }
 /* from 1200 to 1439px */
 @media (min-width: 1200px) {
@@ -348,6 +394,12 @@
   .logo-mobile {
     display: none;
   }
+
+  /* brands page */
+  .brands-img-content,
+  .brands-text-content {
+    width: 41%;
+  }
 }
 /* for device more than 1440px */
 @media (min-width: 1440px) {
@@ -372,5 +424,11 @@
   /* news section */
   .news-body .owl-carousel .item {
     height: 788px;
+  }
+
+  /* brands page */
+  .brands-img-content,
+  .brands-text-content {
+    width: 43%;
   }
 }

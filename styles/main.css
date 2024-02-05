@@ -74,6 +74,24 @@ body {
   left: 0;
   z-index: 400;
 }
+.top-model-bg-wave-desktop,
+.miss-melody-bg-wave-desktop,
+.ylvi-bg-wave-desktop,
+.trends-bg-wave-desktop,
+.dino-world-bg-wave-desktop,
+.princess-mimi-bg-wave-desktop,
+.newsletter-bg-wave-desktop,
+.hero-bg-wave-desktop,
+.video-bg-wave-desktop,
+.sales-banner-bg-wave-desktop,
+.career-banner-bg-wave-desktop,
+.newsletter-banner-bg-wave-desktop {
+  display: none;
+}
+.active-link {
+  color: var(--dp-orange) !important;
+  font-weight: 700 !important;
+}
 .bg-orange {
   background-color: #ffcaaf;
 }
@@ -88,6 +106,15 @@ body {
 }
 .bg-columbia {
   background-color: #c8dbdb;
+}
+.bg-pink {
+  background-color: #ff8ddf;
+}
+.bg-green {
+  background-color: #8eb85b;
+}
+.bg-lightpink {
+  background-color: #fdadd0;
 }
 .owl-nav {
   width: 100%;
@@ -455,12 +482,10 @@ nav {
   width: 120px;
   top: -80rem;
   right: 0;
+  z-index: 100;
 }
 .hero-bg-wave-mobile {
   background-image: url(../assets/waves/wave_white_mobile.svg);
-}
-.hero-bg-wave-desktop {
-  display: none;
 }
 
 /* brands */
@@ -522,9 +547,6 @@ nav {
 }
 .video-bg-wave-mobile {
   background-image: url(../assets/waves/wave_grey_mobile.svg);
-}
-.video-bg-wave-desktop {
-  display: none;
 }
 .vdo-prop {
   position: absolute;
@@ -619,9 +641,6 @@ nav {
 }
 .sales-banner-bg-wave-mobile {
   background-image: url(../assets/waves/wave_lightgrey2-bg_mobile.svg);
-}
-.sales-banner-bg-wave-desktop {
-  display: none;
 }
 .sales-prop-heart,
 .sales-prop-paitings {
@@ -775,10 +794,6 @@ nav {
 .career-banner-bg-wave-mobile {
   background-image: url(../assets/waves/wave_newsletter_mobile.svg);
 }
-.career-banner-bg-wave-desktop {
-  display: none;
-}
-
 /* newsletter section */
 .newsletter-container {
   position: relative;
@@ -816,9 +831,6 @@ nav {
 }
 .newsletter-banner-bg-wave-mobile {
   background-image: url(../assets/waves/wave_footer_mobile.svg);
-}
-.newsletter-banner-bg-wave-desktop {
-  display: none;
 }
 .newsletter-prop {
   width: 150px;
@@ -901,4 +913,63 @@ footer p {
 .copyright {
   font-size: 0.75rem;
   text-align: center;
+}
+
+/* brands page */
+.brand-content {
+  display: flex;
+  flex-direction: column;
+  padding: 55px 0 150px;
+}
+.brand-img {
+  width: 100%;
+}
+.brand-text {
+  padding-block: 1.5rem;
+  font-weight: 300;
+  line-height: 2;
+  text-align: start;
+}
+.top-model .brands-text-content,
+.top-model .sub-heading,
+.dino-world .brands-text-content,
+.dino-world .sub-heading,
+.princess-mimi .brands-text-content,
+.princess-mimi .sub-heading {
+  color: #fff;
+}
+.brand {
+  position: relative;
+}
+.brand-wave {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64px;
+  width: 100%;
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  z-index: 400;
+}
+/* top model */
+.top-model-bg-wave-mobile {
+  background-image: url(../assets/waves/wave_topmodel-bg_mobile.svg);
+}
+/* miss melody */
+.miss-melody-bg-wave-mobile,
+.ylvi-bg-wave-mobile,
+.trends-bg-wave-mobile {
+  background-image: url(../assets/waves/wave_white_mobile.svg);
+}
+/* dino world */
+.dino-world-bg-wave-mobile {
+  background-image: url(../assets/waves/wave_dinoworld-bg_mobile.svg);
+}
+/* princess mimi */
+.princess-mimi-bg-wave-mobile {
+  background-image: url(../assets/waves/wave_princessmimi-bg_mobile.svg);
+}
+/* newsletter */
+.newsletter-bg-wave-mobile {
+  background-image: url(../assets/waves/wave_newsletter_mobile.svg);
 }
