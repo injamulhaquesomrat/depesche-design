@@ -32,6 +32,7 @@ $(document).ready(function () {
 
   // dropdown searchbar
   searchBtn.on("click", function () {
+    dropdownContainer.css("top", "-2000px");
     searchBar.css("top", "0");
   });
 });
