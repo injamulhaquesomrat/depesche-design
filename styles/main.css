@@ -275,6 +275,7 @@ nav {
   justify-content: center;
   border-radius: 2rem;
   font-size: 11px;
+  cursor: pointer;
 }
 .dropdown-navbar .logo-content {
   position: absolute;
@@ -553,7 +554,7 @@ nav {
   width: 100px;
   bottom: -1rem;
   right: 0;
-  z-index: 300;
+  z-index: 500;
 }
 
 /* teaser section */
