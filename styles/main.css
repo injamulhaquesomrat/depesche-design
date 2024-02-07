@@ -436,7 +436,7 @@ nav {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  background-color: var(--dp-blue);
+  /* background-color: var(--dp-blue); */
   position: relative;
 }
 .hero-img-content {
@@ -470,6 +470,7 @@ nav {
 .hero-text {
   font-weight: 300;
   color: #000;
+  margin-bottom: 3rem;
 }
 .fa-chevron-right {
   transition: all 0.3s ease-in-out;

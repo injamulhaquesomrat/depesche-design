@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your theme world at TOPModel, Miss Melody and more</title>
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/logo_de.png" />
+    <link rel="icon" type="image/x-icon" href="../../assets/logo_de.png" />
     <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -63,10 +63,12 @@
           <!-- menu list -->
           <ul class="menu-list">
             <li class="menu-item">
-              <a class="nav-link active-link" href="./brands.html">Brands</a>
+              <a class="nav-link" href="../brands/brands.html">Brands</a>
             </li>
             <li class="menu-item">
-              <a class="nav-link" href="../theme-worlds/theme-worlds.html"
+              <a
+                class="nav-link active-link"
+                href="../theme-worlds/theme-worlds.html"
                 >Theme worlds</a
               >
             </li>
@@ -145,18 +147,15 @@
               <div class="accordion-body">
                 <!-- brands -->
                 <div class="accordion-item">
-                  <button class="accordionBtn active">
+                  <button class="accordionBtn">
                     Brands
-                    <i
-                      class="fa-solid fa-chevron-down dd-chevron"
-                      style="transform: rotate(180deg)"
-                    ></i>
+                    <i class="fa-solid fa-chevron-down dd-chevron"></i>
                   </button>
-                  <div class="panel" style="display: block">
+                  <div class="panel">
                     <ul>
                       <li>
                         <a href="./brands.html">
-                          <strong class="active-link">Brands</strong>
+                          <strong>Brands</strong>
                         </a>
                       </li>
                       <li><a href="#"> TOPModel </a></li>
@@ -170,15 +169,18 @@
                 </div>
                 <!-- theme worlds -->
                 <div class="accordion-item">
-                  <button class="accordionBtn">
+                  <button class="accordionBtn active">
                     Theme worlds
-                    <i class="fa-solid fa-chevron-down dd-chevron"></i>
+                    <i
+                      class="fa-solid fa-chevron-down dd-chevron"
+                      style="transform: rotate(180deg)"
+                    ></i>
                   </button>
-                  <div class="panel">
+                  <div class="panel" style="display: block">
                     <ul>
                       <li>
                         <a href="../theme-worlds/theme-worlds.html">
-                          <strong>Theme worlds</strong>
+                          <strong class="active-link">Theme worlds</strong>
                         </a>
                       </li>
                       <li><a href="#"> Back to school </a></li>
@@ -555,7 +557,7 @@
       <!-- main -->
       <main>
         <!-- hero section -->
-        <section class="hero-section">
+        <section class="hero-section bg-orange">
           <!-- bg-wave -->
           <div class="hero-bg-wave-desktop section-wave"></div>
           <div class="hero-bg-wave-mobile section-wave"></div>
@@ -564,345 +566,478 @@
             <div class="hero-text-container">
               <img
                 class="hero-bg-prop"
-                src="../../assets/props/giftbox.svg"
+                src="../../assets/props/pencils.svg"
                 alt="pencil prop"
               />
-              <h1 class="hero-title">
-                Our brands: TOPModel, Dino World and more
-              </h1>
+              <h1 class="hero-title">Our theme worlds</h1>
               <p class="hero-text">
-                Plunge into the glamorous world of our TOPModels, follow Miss
-                Melody's clopping of hooves or be a part of Dino World's
-                adventures ... Our imaginative children's brands invite young
-                enthusiasts to dream up and discover colourful worlds and be
-                creative. And there is more: our brands called KartenTRENDS and
-                TRENDS have a huge variety of greeting cards and gifts for
-                adults to explore. Get ready for even more joyful gift-giving
-                ...
+                Creative colouring and craft fun, fashionable bags, backpacks
+                and accessories or action-packed dinosaur fun - what is your
+                child's kind of fun? Bring the world of TOPModel, Miss Melody
+                and Dino World into the child's room and keep discovering new
+                inspirations and novelties revolving around your child&apos;s
+                heroines and heroes of our theme worlds ...
               </p>
+              <div class="btn-container">
+                <a href="#" class="btn btn-primary">
+                  Back to school
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a href="#" class="btn btn-secondary">
+                  Be creative
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
             </div>
           </div>
           <!-- hero image content -->
           <div class="hero-img-content">
             <figure class="desktop-hero">
               <img
-                src="../../assets/brands/brands-banner-desktop.jpg"
+                src="../../assets/theme-worlds/theme-worlds-banner-desktop.jpg"
                 alt="brands banner"
               />
             </figure>
             <figure class="img-container mobile-hero">
               <img
-                src="../../assets/brands/brands-banner-mobile.jpg"
+                src="../../assets/theme-worlds/theme-worlds-banner-mobile.jpg"
                 alt="brands banner"
               />
             </figure>
           </div>
         </section>
 
-        <!-- brands section -->
+        <!-- teaser section -->
         <section class="container">
-          <div class="brands-content">
-            <!-- brands headings -->
+          <div class="teaser-content">
+            <!-- teaser headings -->
             <div>
-              <h6 class="sub-heading">Discover our</h6>
-              <h2 class="seaction-heading">Brands</h2>
+              <div>
+                <h6 class="sub-heading">
+                  For creative minds, explorers & action fans
+                </h6>
+                <h2 class="seaction-heading">Theme worlds</h2>
+              </div>
             </div>
-            <div class="owl-carousel brands">
-              <div class="brand-holder">
-                <a href="#">
-                  <figure>
+            <!-- teaser items -->
+            <div class="teaser-item">
+              <!-- teaser img content -->
+              <div class="teaser-img-content">
+                <div class="teaser-img-bg">
+                  <figure class="teaser-img-holder bg-blue">
                     <img
-                      src="../../assets/image/brands/top-model.png"
-                      alt="top-model"
+                      class="teaser-img"
+                      src="../../assets/image/teasers/back-to-school.jpg"
+                      alt="back to school"
                     />
                   </figure>
-                </a>
+                </div>
               </div>
-              <div>
-                <a href="#">
-                  <figure>
+              <!-- teaser text content -->
+              <div class="teaser-text-content">
+                <h6 class="sub-heading">Make your school start perfect</h6>
+                <h3 class="seaction-heading">Back to School</h3>
+                <p class="teaser-text">
+                  The new school year is coming up, and you are looking for a
+                  comfortable school bag, a completely filled 3-compartment
+                  pencil case or a suitable sandwich box with drinking bottle?
+                  Get inspired by the brand-new "Back to School" items by
+                  TOPModel, Miss Melody or Dino World und bring variety and fun
+                  into your child's everyday school life!
+                </p>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-secondary">
+                    Back to School
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teaser-item">
+              <!-- teaser img content -->
+              <div class="teaser-img-content">
+                <div class="teaser-img-bg">
+                  <figure class="teaser-img-holder bg-orange">
                     <img
-                      src="../../assets/image/brands/miss-melody.png"
-                      alt="miss-melody"
+                      class="teaser-img"
+                      src="../../assets/image/teasers/be-creative.jpg"
+                      alt="be creative"
                     />
                   </figure>
-                </a>
+                </div>
               </div>
-              <div>
-                <a href="#">
-                  <figure>
+              <!-- teaser text content -->
+              <div class="teaser-text-content">
+                <h6 class="sub-heading">Colouring and creative craft</h6>
+                <h3 class="seaction-heading">Be Creative</h3>
+                <p class="teaser-text">
+                  From colouring book to sticker fun, from coloured pencils to
+                  DIY bead set: "Be creative" is there for creative,
+                  young-at-heart people who wish to bring their ideas to life.
+                  It doesn&apos;t matter if they are boy or girl, or grown-up -
+                  check out our wide range of creative products!
+                </p>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-secondary">
+                    Be Creative
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teaser-item">
+              <!-- teaser img content -->
+              <div class="teaser-img-content">
+                <div class="teaser-img-bg">
+                  <figure class="teaser-img-holder bg-blue">
                     <img
-                      src="../../assets/image/brands/dino-world.png"
-                      alt="dino-world"
+                      class="teaser-img"
+                      src="../../assets/image/teasers/beauty.jpg"
+                      alt="beauty"
                     />
                   </figure>
-                </a>
+                </div>
               </div>
-              <div>
-                <a href="#">
-                  <figure>
+              <!-- teaser text content -->
+              <div class="teaser-text-content">
+                <h6 class="sub-heading">Glitter, glow and glamour</h6>
+                <h3 class="seaction-heading">beauty</h3>
+                <p class="teaser-text">
+                  For relaxing wellness moments and creative looks, our beauty
+                  range is ready for you. Here you can find brushes and hair
+                  ties for dreamy hair styles as well as adhesive tattoos,
+                  manicure sets, face masks and various makeup tools to enhance
+                  your child&apos;s unique personality.
+                </p>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-secondary">
+                    beauty
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teaser-item">
+              <!-- teaser img content -->
+              <div class="teaser-img-content">
+                <div class="teaser-img-bg">
+                  <figure class="teaser-img-holder bg-orange">
                     <img
-                      src="../../assets/image/brands/princess-mimi.png"
-                      alt="princess-mimi"
+                      class="teaser-img"
+                      src="../../assets/image/teasers/nursery-school.jpg"
+                      alt="nursey school"
                     />
                   </figure>
-                </a>
+                </div>
               </div>
-              <div>
-                <a href="#">
-                  <figure>
-                    <img src="../../assets/image/brands/ylvi.png" alt="ylvi" />
-                  </figure>
-                </a>
+              <!-- teaser text content -->
+              <div class="teaser-text-content">
+                <h6 class="sub-heading">Adorable youngsters</h6>
+                <h3 class="seaction-heading">Nursery school</h3>
+                <p class="teaser-text">
+                  Entering nursery school is a big step for young children! For
+                  this special phase we have developed cute nursery school
+                  backpacks, practical bags and cool dinosaur games as well as
+                  and nice and vivid colouring and craft books - all made for a
+                  lot of creative fun!
+                </p>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-secondary">
+                    Nursery school
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                </div>
               </div>
-              <div>
-                <a href="#">
-                  <figure>
-                    <img
-                      src="../../assets/image/brands/trends.png"
-                      alt="trends"
-                    />
-                  </figure>
-                </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- sales banner section -->
+        <section class="sales-banner-content bg-blue">
+          <!-- sales banner prop -->
+          <img
+            class="sales-prop-heart"
+            src="../../assets/props/heart.svg"
+            alt="heart"
+          />
+          <img
+            class="sales-prop-paitings"
+            src="../../assets/props/paintings.png"
+            alt="paintings"
+          />
+          <div class="container">
+            <!-- sales bannner headings -->
+            <div>
+              <h6 class="sub-heading">Depesche products</h6>
+              <h2 class="seaction-heading">Buy online</h2>
+            </div>
+            <!-- sales banner body  -->
+            <div class="sales-banner-body">
+              <p class="sales-banner-text">
+                All our products can also be puchased online on our partners'
+                website
+              </p>
+              <div class="sales-banner-btn-container">
+                <a href="#" class="btn sales-btn"
+                  ><i class="fa-brands fa-amazon"></i>Amazon<i
+                    class="fa-solid fa-up-right-from-square fa-sm"
+                  ></i
+                ></a>
+                <a href="#" class="btn sales-btn"
+                  >Toymaster<i
+                    class="fa-solid fa-up-right-from-square fa-sm"
+                  ></i
+                ></a>
+              </div>
+            </div>
+            <!-- bg-wave -->
+            <div class="sales-banner-bg-wave-desktop section-wave"></div>
+            <div class="sales-banner-bg-wave-mobile section-wave"></div>
+          </div>
+        </section>
+
+        <!-- news section -->
+        <section class="container">
+          <div class="news-content">
+            <!-- news headings -->
+            <div>
+              <h6 class="sub-heading">Information on</h6>
+              <h2 class="seaction-heading">news & product updates</h2>
+            </div>
+            <!-- news content -->
+            <div class="news-body">
+              <div class="owl-carousel news owl-theme">
+                <!-- 1 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/diaries.jpg"
+                          alt="diaries"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">News | 10/01/2024</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        Diaries & journaling - 5 reasons why your little ones
+                        should start writing down their colourful thoughts of
+                        the day!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      Moments of joy, worries, grief, fits of laughter and
+                      exciting experiences: all these diverse matters are part
+                      of our - and our children&apos;s - everyday lives. To
+                      reflect and make some sense of our emotions and thoughts,
+                      one thing is particularly helpful: keeping a diary!
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/hohoho.jpg"
+                          alt="hohoho"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">News | 05/12/2023</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        Ho ho ho - get your Christmas wish list as a template to
+                        download!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      Create your very own individual wish list with our cute
+                      template for small and large Christmas wishes, exciting
+                      gift ideas and favourite characters!
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- 3 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/DIY.png"
+                          alt="DIY"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">News | 21/11/2023</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        DIY: Create your very own Advent calendar!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      Creative Advent calendars are the most beautiful way to
+                      brighten up your waiting time before Christmas. We have
+                      prepared a step-by-step guide for you to make your very
+                      own Advent calendar and fill it with lovely little items.
+                      Let&apos;s get started!
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- 4 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/watercolour.jpg"
+                          alt="watercolour"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">News | 09/08/2023</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        Watercolour Book: a step-by-step guide for creating
+                        magical watercolour motifs!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      You would like to paint watercolour pictures like a real
+                      pro? With our Watercolour Book you&apos;ll be well on your
+                      way. Check out our step-by-step guide on how to create the
+                      most colourful motifs!
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- 5 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/top-model.jpg"
+                          alt="top-model"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">TOPModel | 10/01/2024</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        The TOPModel bucket list for good mood during the summer
+                        holidays!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      The summer holidays are here and with them plenty of time
+                      for good mood and exciting adventures! We have put
+                      together a bucket list for lots of fun.
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- 6 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/secret-keeper.jpg"
+                          alt="secret-keeper"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">Depesche | 10/01/2024</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        The keeper of secrets: How to change the secret code of
+                        your diary with code and sound!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      You have a new Depesche diary with code and sound and want
+                      to set up or change your personal secret code? We tell you
+                      how to do it!
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- 7 -->
+                <div class="item">
+                  <div class="news-item-img-content">
+                    <a href="#">
+                      <figure>
+                        <img
+                          class="news-item-img"
+                          src="../../assets/image/news/pssst.jpg"
+                          alt="pssst"
+                        />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="news-item-text-content">
+                    <p class="news-date">TOPModel | 10/01/2024</p>
+                    <h3 class="news-title">
+                      <a href="#">
+                        Pssst, it shimmers, glitters and sparkles in the
+                        TOPModel collection BLING BLING!
+                      </a>
+                    </h3>
+                    <p class="news-text">
+                      The new TOPModel collection BLING BLING shines with super
+                      beautiful poodle motif on pink glitter background.
+                      Discover what is hidden behind it!
+                    </p>
+                    <a href="#" class="btn news-btn"
+                      >Read More<i class="fa-solid fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="btn-center">
               <a href="#" class="btn btn-primary">
-                All Brands
+                Show All
                 <i class="fa-solid fa-chevron-right"></i>
               </a>
             </div>
           </div>
-        </section>
-
-        <!-- topModel brand -->
-        <section class="top-model brand bg-pink">
-          <div class="container">
-            <div class="brand-content">
-              <div class="brands-img-content">
-                <figure>
-                  <img
-                    src="../../assets/brands/top-model.png"
-                    alt="top model"
-                    class="top-model-img brand-img"
-                  />
-                </figure>
-              </div>
-              <div class="brands-text-content">
-                <h6 class="sub-heading">Discover the universe of</h6>
-                <h2 class="seaction-heading">TOPModel</h2>
-                <p class="brand-text">
-                  Explore the creative world of our TOPModels and get inspired
-                  by close friendships, funny photo shoots and big emotions!
-                  Create your own fashion world with the brand-new TOPModel
-                  colouring books, "Dress Me Up" sets or watercolour sets, and
-                  keep abreast of the latest trends with our brand-new bag
-                  collections and beauty tips! Be Creative - Be TOPModel!
-                </p>
-                <div class="btn-container">
-                  <a href="#" class="btn btn-primary">
-                    More
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- brand background wave  -->
-          <div class="top-model-bg-wave-desktop brand-wave"></div>
-          <div class="top-model-bg-wave-mobile brand-wave"></div>
-        </section>
-
-        <!-- miss melody brand -->
-        <section class="miss-melody brand">
-          <div class="container">
-            <div class="brand-content">
-              <div class="brands-img-content">
-                <figure>
-                  <img
-                    src="../../assets/brands/miss-melody.png"
-                    alt="miss melody"
-                    class="miss-melody-img brand-img"
-                  />
-                </figure>
-              </div>
-              <div class="brands-text-content">
-                <h6 class="sub-heading">A horsey dream come true</h6>
-                <h2 class="seaction-heading">Miss Melody</h2>
-                <p class="brand-text">
-                  When the clopping of hooves makes the young one&apos;s heart
-                  beat faster: check out our dreamy and beautiful horse motifs
-                  on backpacks for spare time and stable, completely filled
-                  triple pencil cases for school, or colourful drawing and craft
-                  sets for creative hours - in their room or outside! Find the
-                  best horse motif for your child!
-                </p>
-                <div class="btn-container">
-                  <a href="#" class="btn btn-primary">
-                    More
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- brand background wave  -->
-          <div class="miss-melody-bg-wave-desktop brand-wave"></div>
-          <div class="miss-melody-bg-wave-mobile brand-wave"></div>
-        </section>
-
-        <!-- dino world brand -->
-        <section class="dino-world brand bg-green">
-          <div class="container">
-            <div class="brand-content">
-              <div class="brands-img-content">
-                <figure>
-                  <img
-                    src="../../assets/brands/dino-world.png"
-                    alt="dino world"
-                    class="dino-world-img brand-img"
-                  />
-                </figure>
-              </div>
-              <div class="brands-text-content">
-                <h6 class="sub-heading">For explorers and adventurers</h6>
-                <h2 class="seaction-heading">Dino World + ACTION</h2>
-                <p class="brand-text">
-                  Look out, dinosaur and action fans, here comes some great fun!
-                  Primeval creatures from ancient times want to be brought to
-                  life, exciting traces from the past are waiting to be
-                  examined. Treat your young ones to action-packed adventures on
-                  paper, under water or up in the air. Let them turn their room
-                  into a fun area!
-                </p>
-                <div class="btn-container">
-                  <a href="#" class="btn btn-primary">
-                    More
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- brand background wave  -->
-          <div class="dino-world-bg-wave-desktop brand-wave"></div>
-          <div class="dino-world-bg-wave-mobile brand-wave"></div>
-        </section>
-
-        <!-- ylvi brand -->
-        <section class="ylvi brand">
-          <div class="container">
-            <div class="brand-content">
-              <div class="brands-img-content">
-                <figure>
-                  <img
-                    src="../../assets/brands/ylvi.png"
-                    alt="ylvi"
-                    class="ylvi-img brand-img"
-                  />
-                </figure>
-              </div>
-              <div class="brands-text-content">
-                <h6 class="sub-heading">
-                  Ylvi and her enchanting unicorn world
-                </h6>
-                <h2 class="seaction-heading">Ylvi</h2>
-                <p class="brand-text">
-                  Step into the joyful world of Naya the unicorn and her jolly
-                  friends: on bright and colourful "Dress me up" books and
-                  sticker books, they welcome young fantasy fans to tons of
-                  colouring and craft fun as well as creative activities and
-                  high spirits! So enchanting!
-                </p>
-                <div class="btn-container">
-                  <a href="#" class="btn btn-primary">
-                    More
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- brand background wave  -->
-          <div class="ylvi-bg-wave-desktop brand-wave"></div>
-          <div class="ylvi-bg-wave-mobile brand-wave"></div>
-        </section>
-
-        <!-- princess mimi brand -->
-        <section class="princess-mimi brand bg-lightpink">
-          <div class="container">
-            <div class="brand-content">
-              <div class="brands-img-content">
-                <figure>
-                  <img
-                    src="../../assets/brands/princess-mimi.png"
-                    alt="princess mimi"
-                    class="princess-mimi-img brand-img"
-                  />
-                </figure>
-              </div>
-              <div class="brands-text-content">
-                <h6 class="sub-heading">A fairytale castle for princesses</h6>
-                <h2 class="seaction-heading">Princess Mimi</h2>
-                <p class="brand-text">
-                  Welcome to the colourful and creative world of Princess Mimi -
-                  the little princess who loves beautiful dresses and has tons
-                  of fun while colouring, crafting, and dancing. Her attitude of
-                  constant happiness and her countless creative and beauty ideas
-                  make her an instant heroine for any nursery school kid.
-                  Together with her animal friends she is always in for funny
-                  adventures.
-                </p>
-                <div class="btn-container">
-                  <a href="#" class="btn btn-primary">
-                    More
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- brand background wave  -->
-          <div class="princess-mimi-bg-wave-desktop brand-wave"></div>
-          <div class="princess-mimi-bg-wave-mobile brand-wave"></div>
-        </section>
-
-        <!-- trends brand -->
-        <section class="trends brand">
-          <div class="container">
-            <div class="brand-content">
-              <div class="brands-img-content">
-                <figure>
-                  <img
-                    src="../../assets/brands/trends.png"
-                    alt="trends"
-                    class="trends-img brand-img"
-                  />
-                </figure>
-              </div>
-              <div class="brands-text-content">
-                <h6 class="sub-heading">Because gift-giving makes us happy</h6>
-                <h2 class="seaction-heading">TRENDS by Depesche</h2>
-                <p class="brand-text">
-                  People are as diverse as they come, and so are our gift ideas.
-                  Here you can find presents for your favourite person, a kind
-                  colleague, a dear friend or your new acquaintance: browse for
-                  gifts that come straight from the heart, like design or slogan
-                  mugs, practical to-go mugs, keyrings, bracelets or necklaces -
-                  here at TRENDS by Depesche.
-                </p>
-                <div class="btn-container">
-                  <a href="#" class="btn btn-primary">
-                    More
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- brand background wave  -->
-          <div class="trends-bg-wave-desktop brand-wave"></div>
-          <div class="trends-bg-wave-mobile brand-wave"></div>
         </section>
 
         <!-- newsletter section -->
