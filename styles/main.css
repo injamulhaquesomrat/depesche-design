@@ -1278,3 +1278,50 @@ footer p {
 .search-footer .custom-sort {
   margin: 0;
 }
+
+/* career teaser container */
+.career-teaser-container {
+  padding-top: 55px;
+}
+
+/* job section */
+.job-section {
+  padding: 55px 0 150px;
+}
+.job-head,
+.job-item {
+  display: none;
+  border-bottom: 1px solid #c4d5df;
+  padding-block: 30px;
+  align-items: center;
+}
+.job-item,
+.job-details {
+  display: flex;
+  width: 100%;
+}
+.job-item {
+  flex-direction: column;
+  font-weight: 300;
+}
+.col-8 {
+  width: 100%;
+}
+.col-2 {
+  width: 50%;
+}
+.job-section .job-btn {
+  color: var(--dp-orange);
+  text-decoration: none;
+  font-weight: 300;
+}
+.job-section .btn {
+  padding: 0;
+}
+.job-item strong {
+  color: #666;
+  font-weight: 600;
+}
+.job-type {
+  margin-bottom: 1.5rem;
+}

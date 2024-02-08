@@ -144,6 +144,9 @@
   .career-teaser-item {
     flex-direction: row;
   }
+  .career-teaser-item:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
   .career-banner-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_newsletter_desktop.svg);
@@ -356,6 +359,27 @@
   }
   .search-footer {
     flex-direction: row;
+  }
+
+  /* job section */
+  .job-head {
+    display: flex;
+  }
+  .col-8 {
+    width: 60%;
+  }
+  .col-2 {
+    width: 50%;
+  }
+  .job-item {
+    flex-direction: row;
+  }
+  .job-type {
+    width: 60%;
+    margin: 0;
+  }
+  .job-details {
+    width: 40%;
   }
 }
 /* from 1200 to 1439px */

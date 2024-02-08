@@ -5,7 +5,7 @@ $(document).ready(function () {
   let breadcrumb = $(".breadcrumb");
   let closeBtn = $(".close-btn");
   let searchBar = $(".search-container");
-  let searchBtn = $(".search-item");
+  let searchBtn = $(".magnify-btn");
 
   // hide navbar on scroll
   $(window).scroll(function () {
