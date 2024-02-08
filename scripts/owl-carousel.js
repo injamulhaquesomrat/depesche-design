@@ -1,3 +1,5 @@
+// brands
+
 $(".brands").owlCarousel({
   loop: true,
   margin: 16,
@@ -124,6 +126,36 @@ $(".news").owlCarousel({
     },
     1440: {
       items: 3,
+    },
+  },
+});
+
+// categories
+
+$(".categories").owlCarousel({
+  // loop: true,
+  margin: 10,
+  nav: true,
+  dots: false,
+  navText: [
+    "<i class='fas fa-chevron-left'></i>",
+    "<i class='fas fa-chevron-right'></i>",
+  ],
+  responsive: {
+    0: {
+      items: 3,
+    },
+    576: {
+      items: 4,
+    },
+    768: {
+      items: 5,
+    },
+    900: {
+      items: 6,
+    },
+    1325: {
+      items: 11,
     },
   },
 });
