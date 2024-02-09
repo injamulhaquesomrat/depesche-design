@@ -181,6 +181,8 @@
     align-items: center;
   }
   .miss-melody .brand-content,
+  .all-models .brand-content,
+  .backpack .brand-content,
   .ylvi .brand-content {
     flex-direction: row-reverse;
   }
@@ -269,6 +271,11 @@
     left: -10%;
     transform: rotate(-20deg);
   }
+  .social-banner-content::before {
+    top: -20%;
+    left: -10%;
+    transform: rotate(20deg);
+  }
   .vdo-prop {
     right: 5%;
   }
@@ -282,12 +289,19 @@
     top: 280px;
     left: 200px;
   }
-  .sales-prop-paitings {
+  .sales-prop-paitings,
+  .sales-prop-girls {
     height: auto;
-    width: 20%;
-    right: 1%;
     bottom: 0;
     opacity: 1;
+  }
+  .sales-prop-paitings {
+    width: 20%;
+    right: 1%;
+  }
+  .sales-prop-girls {
+    width: 37%;
+    right: -2%;
   }
 
   /* about section */
@@ -368,9 +382,6 @@
   .col-8 {
     width: 60%;
   }
-  .col-2 {
-    width: 50%;
-  }
   .job-item {
     flex-direction: row;
   }
@@ -432,7 +443,7 @@
     width: 80%;
   }
   .hero-bg-prop {
-    top: -8rem;
+    top: -6.5rem;
     right: -4.5rem;
   }
 

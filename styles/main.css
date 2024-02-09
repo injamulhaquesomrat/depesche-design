@@ -92,6 +92,9 @@ body {
   color: var(--dp-orange) !important;
   font-weight: 700 !important;
 }
+.text-white {
+  color: #fff !important;
+}
 .bg-orange {
   background-color: #ffcaaf;
 }
@@ -438,8 +441,8 @@ nav {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  /* background-color: var(--dp-blue); */
   position: relative;
+  overflow: hidden;
 }
 .hero-img-content {
   width: 100%;
@@ -496,7 +499,7 @@ nav {
 
 /* brands */
 .brands-content {
-  padding: 55px 0 95px;
+  padding: 55px 0 150px;
 }
 .brands {
   padding-block: 2rem;
@@ -525,7 +528,8 @@ nav {
   position: relative;
 }
 .vdo-content::before,
-.sales-banner-content::before {
+.sales-banner-content::before,
+.social-banner-content::before {
   content: "";
   background-color: #ffcaaf;
   width: 25%;
@@ -537,11 +541,13 @@ nav {
   transform: rotate(12deg);
 }
 .vdo-content .sub-heading,
-.sales-banner-content .sub-heading {
+.sales-banner-content .sub-heading,
+.social-banner-content .sub-heading {
   color: #fff;
 }
 .vdo-content .seaction-heading,
-.sales-banner-content .seaction-heading {
+.sales-banner-content .seaction-heading,
+.social-banner-content .seaction-heading {
   font-weight: 700;
   margin-bottom: 2rem;
 }
@@ -622,7 +628,8 @@ nav {
 }
 
 /* sales banner section */
-.sales-banner-content {
+.sales-banner-content,
+.social-banner-content {
   padding-block: 5rem;
   text-align: center;
   position: relative;
@@ -649,7 +656,8 @@ nav {
   background-image: url(../assets/waves/wave_lightgrey2-bg_mobile.svg);
 }
 .sales-prop-heart,
-.sales-prop-paitings {
+.sales-prop-paitings,
+.sales-prop-girls {
   position: absolute;
 }
 .sales-prop-heart {
@@ -658,7 +666,8 @@ nav {
   left: 0;
   z-index: 200;
 }
-.sales-prop-paitings {
+.sales-prop-paitings,
+.sales-prop-girls {
   z-index: 50;
   opacity: 0;
 }
@@ -1069,9 +1078,6 @@ footer p {
   width: 100%;
   margin: 0;
 }
-.accordion-body .accordion-item {
-  margin-bottom: 1rem;
-}
 .search-content .filterBtn {
   background-color: #fff;
   color: #333;
@@ -1324,4 +1330,32 @@ footer p {
 }
 .job-type {
   margin-bottom: 1.5rem;
+}
+
+/* social banner section */
+.social-banner-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 80px;
+}
+.social-btn {
+  height: 3rem;
+  width: 3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  background-color: #fff;
+  color: var(--dp-orange);
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+.social-icon {
+  font-size: 25px;
+}
+.social-btn:hover {
+  background-color: var(--dp-orange);
+  color: #fff;
 }
