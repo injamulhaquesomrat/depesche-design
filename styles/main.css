@@ -12,6 +12,9 @@ body {
   line-height: 1.5;
   color: var(--dp-text);
 }
+main {
+  overflow: hidden;
+}
 /* custom */
 .wrapper {
   width: 100%;
@@ -92,6 +95,10 @@ body {
   color: var(--dp-orange) !important;
   font-weight: 700 !important;
 }
+.active-page {
+  color: var(--dp-orange) !important;
+  font-weight: 400 !important;
+}
 .text-white {
   color: #fff !important;
 }
@@ -104,6 +111,9 @@ body {
 .bg-eggblue {
   background-color: #c4d5df;
 }
+.bg-robin-eggblue {
+  background-color: #72e6d8;
+}
 .bg-lavender {
   background-color: #d1c9df;
 }
@@ -113,11 +123,17 @@ body {
 .bg-pink {
   background-color: #ff8ddf;
 }
+.bg-lightgrey {
+  background-color: #f9f9f9;
+}
 .bg-green {
   background-color: #8eb85b;
 }
 .bg-lightpink {
   background-color: #fdadd0;
+}
+.bg-violet {
+  background-color: #b7a0eb;
 }
 .owl-nav {
   width: 100%;
@@ -173,6 +189,13 @@ body {
   transition: all 0.5s ease-out;
   width: 100%;
   background-color: #fff;
+}
+.banner-prop {
+  position: absolute;
+  bottom: -6%;
+  right: 0;
+  width: 100px;
+  z-index: 1000;
 }
 
 /* header */
@@ -686,7 +709,7 @@ nav {
 /* about banner section */
 .about-container {
   position: relative;
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 .about-container figure {
   margin: 0;
@@ -987,6 +1010,10 @@ footer p {
 /* newsletter */
 .newsletter-bg-wave-mobile {
   background-image: url(../assets/waves/wave_newsletter_mobile.svg);
+}
+/* mugs */
+.mugs-bg-wave-mobile {
+  background-image: url(../assets/waves/wave_lightgrey2-bg_mobile.svg);
 }
 
 /* categories section */
@@ -1358,4 +1385,18 @@ footer p {
 .social-btn:hover {
   background-color: var(--dp-orange);
   color: #fff;
+}
+
+/* horsey creative page */
+.horsey-list {
+  list-style: none;
+  padding-left: 1.25rem;
+}
+.horsey-list li {
+  display: flex;
+  gap: 0.625rem;
+}
+.horsey-list li span {
+  padding-top: 0.125rem;
+  color: var(--dp-orange);
 }

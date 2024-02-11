@@ -38,6 +38,7 @@
   .hero-bg-wave-mobile,
   .video-bg-wave-mobile,
   .sales-banner-bg-wave-mobile,
+  .mugs-bg-wave-mobile,
   .career-banner-bg-wave-mobile,
   .newsletter-banner-bg-wave-mobile {
     display: none;
@@ -182,6 +183,11 @@
   }
   .miss-melody .brand-content,
   .all-models .brand-content,
+  .accesories-school .brand-content,
+  .sticking .brand-content,
+  .bags .brand-content,
+  .moments .brand-content,
+  .raingbow-gifts .brand-content,
   .backpack .brand-content,
   .ylvi .brand-content {
     flex-direction: row-reverse;
@@ -217,12 +223,20 @@
     display: block;
     background-image: url(../assets/waves/wave_newsletter_desktop.svg);
   }
+  /* mugs */
+  .mugs-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_lightgrey2-bg_desktop.svg);
+  }
 }
 /* from 992px to 1199px */
 @media (min-width: 992px) {
   /* custom */
   .container {
     max-width: 960px;
+  }
+  .banner-prop {
+    right: 5%;
   }
 
   /* dropdown body */
