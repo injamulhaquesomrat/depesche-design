@@ -32,6 +32,8 @@
   .miss-melody-bg-wave-mobile,
   .ylvi-bg-wave-mobile,
   .trends-bg-wave-mobile,
+  .teaser-top-bg-wave-mobile,
+  .teaser-bottom-bg-wave-mobile,
   .dino-world-bg-wave-mobile,
   .princess-mimi-bg-wave-mobile,
   .newsletter-bg-wave-mobile,
@@ -80,12 +82,15 @@
   .teaser-item {
     flex-direction: row;
   }
-  .teaser-item:nth-child(2n + 1) {
-    flex-direction: row-reverse;
-  }
   .teaser-img-content {
     width: 40%;
   }
+
+  .service-teaser-item .teaser-img-content {
+    padding-top: 2rem;
+    width: 42.5%;
+  }
+
   .teaser-img-holder {
     padding: 2rem;
   }
@@ -95,8 +100,16 @@
   .teaser-text-content {
     width: 50%;
   }
+  .service-teaser-item .teaser-text-content {
+    width: 42.5%;
+  }
 
+  .teaser-bottom-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_white_desktop.svg);
+  }
   /* video banner section */
+
   .video-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_grey_desktop.svg);
@@ -142,12 +155,6 @@
   }
 
   /* career teaser section */
-  .career-teaser-item {
-    flex-direction: row;
-  }
-  .career-teaser-item:nth-child(2n) {
-    flex-direction: row-reverse;
-  }
   .career-banner-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_newsletter_desktop.svg);
@@ -189,12 +196,25 @@
   .moments .brand-content,
   .raingbow-gifts .brand-content,
   .backpack .brand-content,
+  .back-to-school,
+  .beauty-teaser,
+  .be-creative,
+  .team,
+  .sustainability,
+  .newsletter,
+  .FAQ,
+  .nursery-teaser,
   .ylvi .brand-content {
     flex-direction: row-reverse;
   }
   .brands-img-content,
   .brands-text-content {
     width: 45%;
+  }
+  /* teaser top wave */
+  .teaser-top-bg-wave-desktop {
+    display: block;
+    background-image: url(../assets/waves/wave_lightgrey2-bg_desktop.svg);
   }
   /* top model */
   .top-model-bg-wave-desktop {
