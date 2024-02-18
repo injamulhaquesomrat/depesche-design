@@ -257,6 +257,9 @@
   .banner-prop {
     right: 5%;
   }
+  .brand .banner-prop {
+    right: 0;
+  }
 
   /* dropdown body */
   .dropdown-body .service-list {

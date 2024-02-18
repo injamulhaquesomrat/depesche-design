@@ -210,6 +210,9 @@ main {
   width: 100px;
   z-index: 1000;
 }
+.brand .banner-prop {
+  bottom: 0;
+}
 .text-center {
   text-align: center;
 }
@@ -549,6 +552,7 @@ nav {
   bottom: 0;
   left: 0;
 }
+
 .hero-bg-wave-mobile {
   background-image: url(../assets/waves/wave_white_mobile.svg);
 }
