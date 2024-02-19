@@ -82,10 +82,12 @@
   .teaser-item {
     flex-direction: row;
   }
+  .team-teaser .teaser-img {
+    margin-top: 0;
+  }
   .teaser-img-content {
     width: 40%;
   }
-
   .service-teaser-item .teaser-img-content {
     padding-top: 2rem;
     width: 42.5%;
@@ -246,6 +248,10 @@
   .mugs-bg-wave-desktop {
     display: block;
     background-image: url(../assets/waves/wave_lightgrey2-bg_desktop.svg);
+  }
+  /* who we are */
+  .text-box blockquote p {
+    margin: 0;
   }
 }
 /* from 992px to 1199px */
@@ -427,6 +433,11 @@
   }
   .job-details {
     width: 40%;
+  }
+
+  /* who we are */
+  .text-body {
+    margin: 20px 232px;
   }
 }
 /* from 1200 to 1439px */

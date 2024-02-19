@@ -645,6 +645,9 @@ nav {
 .teaser-img-holder {
   margin-bottom: 0px;
 }
+.team-teaser .teaser-img {
+  margin-top: 0;
+}
 .teaser-img {
   width: 100%;
   height: auto;
@@ -1488,8 +1491,51 @@ footer p {
 .horsey-list li {
   display: flex;
   gap: 0.625rem;
+  line-height: 1.9;
 }
 .horsey-list li span {
   padding-top: 0.125rem;
   color: var(--dp-orange);
+}
+
+/* who we are */
+.text-body {
+  margin: 20px 0;
+}
+.text-body h2 {
+  margin-bottom: 0.5rem;
+  font-family: Playfair Display, sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.text-body p {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2.13;
+  margin: 1.5rem 0;
+}
+.text-body a {
+  text-decoration: none;
+  color: var(--dp-orange);
+}
+blockquote {
+  margin: 0 0 1rem;
+}
+.text-box blockquote p {
+  margin: 5rem 0 0;
+  font-family: Playfair Display, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.63;
+  text-align: center;
+  color: #f99d6e;
+}
+.text-body strong {
+  font-weight: 600;
+}
+.team-list li {
+  color: var(--dp-orange);
+  font-weight: 300;
 }
