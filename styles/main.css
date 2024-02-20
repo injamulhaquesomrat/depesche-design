@@ -1539,3 +1539,66 @@ blockquote {
   color: var(--dp-orange);
   font-weight: 300;
 }
+
+/* timeline faq */
+.timeline {
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+.timeline li {
+  position: relative;
+  top: -30px;
+  margin-bottom: 20px;
+}
+.timeline::before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 4px;
+  left: 0.5rem;
+  margin-left: -1.5px;
+  background-image: linear-gradient(
+    180deg,
+    #ffcaaf 50%,
+    hsla(0, 0%, 100%, 0) 0
+  );
+  background-position: 0;
+  background-size: 4px 20px;
+  background-repeat: repeat-y;
+}
+.timeline-badge,
+.timeline-badge-end {
+  position: absolute;
+  background-color: #ffcaaf;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  z-index: 100;
+  left: 1.5rem;
+  margin-left: -2rem;
+}
+.timeline-badge {
+  top: 0;
+}
+.timeline-badge-end {
+  bottom: -30px;
+}
+.timeline-panel {
+  width: calc(100% - 50px);
+  margin-left: auto;
+  height: auto;
+}
+.timeline-heading {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 0.5rem;
+  font-family: Playfair Display, sans-serif;
+}
+.timeline-text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #666;
+  line-height: 2.13;
+}

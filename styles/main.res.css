@@ -439,6 +439,43 @@
   .text-body {
     margin: 20px 232px;
   }
+
+  /* timeline faq */
+  .timeline::before {
+    display: none;
+  }
+  .timeline li {
+    height: 295px;
+  }
+  .inverse-timeline .timeline-panel {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: left;
+  }
+  .timeline-panel {
+    width: 40%;
+    margin-right: auto;
+    margin-left: 0;
+    height: auto;
+    text-align: right;
+  }
+  .timeline-badge,
+  .timeline-badge-end {
+    left: 50%;
+  }
+  .timeline-badge::after {
+    content: "";
+    width: 57px;
+    height: 279px;
+    position: absolute;
+    top: 32px;
+    left: 1.75rem;
+    background-image: url(../assets/about-us/history/timeline_1.png);
+  }
+  .inverse-timeline .timeline-badge::after {
+    transform: rotate(180deg);
+    left: -3rem;
+  }
 }
 /* from 1200 to 1439px */
 @media (min-width: 1200px) {
