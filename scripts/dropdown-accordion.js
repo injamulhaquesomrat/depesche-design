@@ -52,3 +52,10 @@ $(document).ready(function () {
     }
   });
 });
+
+// simple dropdown
+$(document).ready(function () {
+  $(".dropdown").on("click", function () {
+    $(".dropdown-content").toggle();
+  });
+});

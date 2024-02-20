@@ -804,9 +804,10 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-.news-body .owl-carousel .item {
+.news-body .owl-carousel .item,
+.news-container .item {
   box-shadow: 0 4px 8px 0 hsla(0, 0%, 60%, 0.25);
-  height: 963px;
+  max-height: 963px;
   margin: 0 8px 20px;
 }
 .news-item-img-content {
@@ -815,6 +816,7 @@ nav {
 }
 .news-item-img {
   height: 228px;
+  width: 100%;
   object-fit: cover;
   transition: all 0.3s ease-out;
 }
@@ -1502,7 +1504,8 @@ footer p {
 .text-body {
   margin: 20px 0;
 }
-.text-body h2 {
+.text-body h2,
+.text-body h4 {
   margin-bottom: 0.5rem;
   font-family: Playfair Display, sans-serif;
   font-weight: 500;
@@ -1515,7 +1518,8 @@ footer p {
   line-height: 2.13;
   margin: 1.5rem 0;
 }
-.text-body a {
+.text-body a,
+.about-text a {
   text-decoration: none;
   color: var(--dp-orange);
 }
@@ -1601,4 +1605,70 @@ blockquote {
   font-weight: 300;
   color: #666;
   line-height: 2.13;
+}
+
+/* news detail */
+.news-detail {
+  padding-top: 128px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.news-breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  display: inline-flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+.news-detail p {
+  margin-bottom: 28px;
+}
+.news-img {
+  width: 100%;
+}
+.news-detail .btn-container {
+  margin: 3rem 0 1.5rem;
+}
+.news-detail .btn {
+  display: inline;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown span {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.29;
+  color: #333;
+}
+.dropdown .fa-sort-down {
+  color: var(--dp-orange);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 0;
+  z-index: 1;
+  list-style: none;
+}
+.dropdown-content li {
+  padding: 0.25rem 1rem;
+  transition: all 0.3s ease-out;
+}
+.dropdown-content li:hover {
+  background-color: #e9ecef;
+}
+.dropdown-content a {
+  text-decoration: none;
+  color: #333;
+}
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 3rem;
 }
