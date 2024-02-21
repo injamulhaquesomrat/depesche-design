@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SERVICE - Depesche at a glance!</title>
+    <title>Contact</title>
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="../../assets/logo_de.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/image/favicon_web.ico"
+    />
     <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -261,7 +265,11 @@
                           <strong class="active-link">Service</strong>
                         </a>
                       </li>
-                      <li><a href="./contact.html"> Contact </a></li>
+                      <li>
+                        <a class="active-page" href="./contact.html">
+                          Contact
+                        </a>
+                      </li>
                       <li><a href="./newsletter.html"> Newsletter</a></li>
                       <li><a href="./downloads.html">Download </a></li>
                       <li><a href="./faq.html"> FAQ </a></li>
@@ -558,453 +566,279 @@
 
       <!-- main -->
       <main>
-        <!-- hero section -->
-        <section class="hero-section bg-blue">
-          <!-- bg-wave -->
-          <div class="hero-bg-wave-desktop section-wave"></div>
-          <div class="hero-bg-wave-mobile section-wave"></div>
-          <!-- hero text content -->
-          <div class="hero-text-content">
-            <div class="hero-text-container">
-              <h1 class="hero-title">
-                Service - Relevant information at a glance!
-              </h1>
-              <p class="hero-text">
-                You have a question regarding our products, are looking for our
-                brand logos, or wish to talk to us personally? In our Service
-                section you will find our FAQs as well as our contact details
-                and our downloads.
-              </p>
-              <div class="btn-container">
-                <a href="#" class="btn btn-primary">
-                  FAQ
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-                <a href="#" class="btn btn-secondary">
-                  Contact
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
+        <!-- about section -->
+        <section class="container">
+          <div class="about-content padding-top-contact">
+            <!-- about headings -->
+            <div class="about-headings">
+              <h6 class="sub-heading">
+                You have questions, suggestions or complaints?
+              </h6>
+              <h1 class="seaction-heading">Contact</h1>
             </div>
-          </div>
-          <!-- hero image content -->
-          <div class="hero-img-content">
-            <figure class="desktop-hero">
-              <img
-                src="../../assets/service/service-banner.jpg"
-                alt="service banner"
-              />
-            </figure>
-            <figure class="img-container mobile-hero">
-              <img
-                src="../../assets/service/service-banner.jpg"
-                alt="service banner"
-              />
-            </figure>
+            <!-- about body -->
+            <div class="about-body">
+              <p class="about-text">
+                We are happy to be there for you! Should you not find the answer
+                to your question in our FAQs section, simple write us a message
+                via our contact form or give us a call. We are looking forward
+                to helping you!
+              </p>
+            </div>
           </div>
         </section>
 
-        <!-- service teaser container -->
-        <div class="service-teaser-container">
-          <!-- service teaser item -->
-          <div class="service-teaser-item">
-            <div class="container">
-              <div class="teaser-item">
-                <!-- teaser img content -->
-                <div class="teaser-img-content">
-                  <figure>
-                    <img
-                      class="teaser-img"
-                      src="../../assets/service/contact.png"
-                      alt="contact"
+        <!-- contact section -->
+        <section class="section">
+          <div class="container">
+            <div class="contact-section">
+              <div class="contact-info">
+                <p>
+                  <strong>DEPESCHE (UK) LIMITED</strong>
+                  <br />Carnac Place, Cams Hall Estate <br />Fareham, Portsmouth
+                  <br />Hampshire, PO16 8UY
+                </p>
+                <p>+44 (0) 115-947 52 00</p>
+                <p>
+                  <a href="#"> office.uk@depesche.com </a>
+                </p>
+                <p>
+                  <a href="#"> www.depesche.com </a>
+                </p>
+              </div>
+              <div class="contact-form">
+                <!-- custom sort -->
+                <div class="custom-sort">
+                  <label class="sort-label">choose a department*</label>
+                  <i class="fa-solid fa-chevron-down sort-icon"></i>
+                  <select class="sorting" name="sort" title="sort">
+                    <option disabled>-- please choose --</option>
+                    <option value="24">general question</option>
+                    <option value="12" selected>product queries</option>
+                    <option value="24">zcomplaint</option>
+                    <option value="24">press and public relations</option>
+                    <option value="48">human resources</option>
+                  </select>
+                </div>
+                <!-- contact custom select -->
+                <div class="custom-select">
+                  <label class="sort-label">Salution*</label>
+                  <ul class="contact-list">
+                    <li>
+                      <label class="checkbox-container">
+                        <span class="checkbox-text"> MR </span>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="checkbox-container">
+                        <span class="checkbox-text"> MRS </span>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="checkbox-container">
+                        <span class="checkbox-text"> DIV </span>
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+                <!-- contact inputs -->
+                <div class="contact-inputs">
+                  <div class="custom-input">
+                    <input
+                      class="simple-input"
+                      type="text"
+                      name="first-name"
+                      placeholder="Firstname*"
+                      id="first-name"
                     />
-                  </figure>
-                </div>
-                <!-- teaser text content -->
-                <div class="teaser-text-content">
-                  <h6 class="sub-heading">contact</h6>
-                  <h3 class="seaction-heading">
-                    You have questions, suggestions or complaints?
-                  </h3>
-                  <p class="teaser-text">
-                    You wish to find out more about the creators of TOPModel,
-                    Dino World & Co.? Here you can get to know Depesche and
-                    learn what is important to us as a company and what spurs us
-                    on. Take a look behind the scenes!
-                  </p>
-                  <div class="btn-container">
-                    <a href="#" class="btn btn-primary">
-                      contact
-                      <i class="fa-solid fa-chevron-right"></i>
-                    </a>
+                    <label class="sort-label" for="first-name">
+                      firstname*
+                    </label>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- service teaser item -->
-          <div class="service-teaser-item bg-lightgrey">
-            <div class="container">
-              <div class="teaser-item newsletter">
-                <!-- teaser img content -->
-                <div class="teaser-img-content">
-                  <figure>
-                    <img
-                      class="teaser-img"
-                      src="../../assets/service/newsletter.png"
-                      alt="newsletter"
+                  <div class="custom-input">
+                    <input
+                      class="simple-input"
+                      type="text"
+                      name="sur-name"
+                      placeholder="Surname*"
+                      id="sur-name"
                     />
-                  </figure>
-                </div>
-                <!-- teaser text content -->
-                <div class="teaser-text-content">
-                  <h6 class="sub-heading">newsletter</h6>
-                  <h3 class="seaction-heading">Stay up to date!</h3>
-                  <p class="teaser-text">
-                    You have a fan of TOPModel, Miss Melody or Dino World +
-                    ACTION at home and would like to stay informed about new
-                    products? Here you can subscribe to our newsletter. We will
-                    inform you approximately once a month about our product
-                    launches and special campaigns.
-                  </p>
-                  <div class="btn-container">
-                    <a href="#" class="btn btn-primary">
-                      newsletter
-                      <i class="fa-solid fa-chevron-right"></i>
-                    </a>
+                    <label class="sort-label" for="sur-name">Surname*</label>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!-- teaser wave -->
-            <!-- top wave -->
-            <div class="teaser-top-bg-wave-desktop brand-wave"></div>
-            <div class="teaser-top-bg-wave-mobile brand-wave"></div>
-            <!-- bottom wave -->
-            <div class="teaser-bottom-bg-wave-desktop section-wave"></div>
-            <div class="teaser-bottom-bg-wave-mobile section-wave"></div>
-          </div>
-
-          <!-- service teaser item -->
-          <div class="service-teaser-item">
-            <div class="container">
-              <div class="teaser-item">
-                <!-- teaser img content -->
-                <div class="teaser-img-content">
-                  <figure>
-                    <img
-                      class="teaser-img"
-                      src="../../assets/service/downloads.png"
-                      alt="downloads"
+                <!-- contact inputs -->
+                <div class="contact-inputs">
+                  <div class="custom-input">
+                    <input
+                      class="simple-input"
+                      type="email"
+                      name="email"
+                      placeholder="Email*"
+                      id="email"
                     />
-                  </figure>
-                </div>
-                <!-- teaser text content -->
-                <div class="teaser-text-content">
-                  <h6 class="sub-heading">downloads</h6>
-                  <h3 class="seaction-heading">
-                    Illustrations, drawings & logos
-                  </h3>
-                  <p class="teaser-text">
-                    You wish to print the TOPModel logo, draw your very own
-                    fantasy world revolving around Ylvi unicorn Naya or check
-                    out some of our drawing templates? Take a look at our
-                    Download section and choose what suits you best!
-                  </p>
-                  <div class="btn-container">
-                    <a href="#" class="btn btn-primary">
-                      downloads
-                      <i class="fa-solid fa-chevron-right"></i>
-                    </a>
+                    <label class="sort-label" for="email"> Email* </label>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- service teaser item -->
-          <div class="service-teaser-item bg-lightgrey">
-            <div class="container">
-              <div class="teaser-item FAQ">
-                <!-- teaser img content -->
-                <div class="teaser-img-content">
-                  <figure>
-                    <img
-                      class="teaser-img"
-                      src="../../assets/service/FAQ.png"
-                      alt="FAQ"
+                  <div class="custom-input">
+                    <input
+                      class="simple-input"
+                      type="text"
+                      name="company"
+                      placeholder="Company"
+                      id="company"
                     />
-                  </figure>
-                </div>
-                <!-- teaser text content -->
-                <div class="teaser-text-content">
-                  <h6 class="sub-heading">FAQ</h6>
-                  <h3 class="seaction-heading">Any questions?</h3>
-                  <p class="teaser-text">
-                    In our FAQ section you will find answers to frequently asked
-                    questions regarding our products, online purchase options
-                    and complaints.
-                  </p>
-                  <div class="btn-container">
-                    <a href="#" class="btn btn-primary">
-                      FAQ
-                      <i class="fa-solid fa-chevron-right"></i>
-                    </a>
+                    <label class="sort-label" for="company">Company*</label>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!-- teaser wave -->
-            <!-- top wave -->
-            <div class="teaser-top-bg-wave-desktop brand-wave"></div>
-            <div class="teaser-top-bg-wave-mobile brand-wave"></div>
-            <!-- bottom wave -->
-            <div class="teaser-bottom-bg-wave-desktop section-wave"></div>
-            <div class="teaser-bottom-bg-wave-mobile section-wave"></div>
-          </div>
-        </div>
-
-        <!-- news section -->
-        <section class="container">
-          <div class="news-content">
-            <!-- news headings -->
-            <div>
-              <h6 class="sub-heading">Information on</h6>
-              <h2 class="seaction-heading">news & product updates</h2>
-            </div>
-            <!-- news content -->
-            <div class="news-body">
-              <div class="owl-carousel news owl-theme">
-                <!-- 1 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/diaries.jpg"
-                          alt="diaries"
-                        />
-                      </figure>
-                    </a>
+                <!-- contact inputs -->
+                <div class="contact-inputs">
+                  <div class="custom-input">
+                    <input
+                      class="simple-input"
+                      type="text"
+                      name="street"
+                      placeholder="Street*"
+                      id="street"
+                    />
+                    <label class="sort-label" for="street"> Street* </label>
                   </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">News | 10/01/2024</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        Diaries & journaling - 5 reasons why your little ones
-                        should start writing down their colourful thoughts of
-                        the day!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      Moments of joy, worries, grief, fits of laughter and
-                      exciting experiences: all these diverse matters are part
-                      of our - and our children&apos;s - everyday lives. To
-                      reflect and make some sense of our emotions and thoughts,
-                      one thing is particularly helpful: keeping a diary!
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
+                  <div class="double-input">
+                    <div class="custom-input zip-input">
+                      <input
+                        class="simple-input"
+                        type="text"
+                        name="zip"
+                        placeholder="Zip*"
+                        id="zip"
+                      />
+                      <label class="sort-label" for="zip">Zip*</label>
+                    </div>
+                    <div class="custom-input city-input">
+                      <input
+                        class="simple-input"
+                        type="text"
+                        name="city"
+                        placeholder="City*"
+                        id="city"
+                      />
+                      <label class="sort-label" for="city">City*</label>
+                    </div>
                   </div>
                 </div>
-                <!-- 2 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/hohoho.jpg"
-                          alt="hohoho"
-                        />
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">News | 05/12/2023</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        Ho ho ho - get your Christmas wish list as a template to
-                        download!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      Create your very own individual wish list with our cute
-                      template for small and large Christmas wishes, exciting
-                      gift ideas and favourite characters!
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
+                <!-- custom sort -->
+                <div class="custom-sort">
+                  <label class="sort-label">Country*</label>
+                  <i class="fa-solid fa-chevron-down sort-icon"></i>
+                  <select class="sorting" name="sort" title="sort">
+                    <option value="24" selected>Germany</option>
+                    <option disabled>------------</option>
+                    <option value="24">Algeria</option>
+                    <option value="24">Australia</option>
+                    <option value="24">Austria</option>
+                    <option value="24">Belgium</option>
+                    <option value="24">Brazil</option>
+                    <option value="24">Bulgaria</option>
+                    <option value="24">Canada</option>
+                    <option value="24">Cyprus</option>
+                    <option value="24">Czechia</option>
+                    <option value="24">Denmark</option>
+                    <option value="24">Estonia</option>
+                    <option value="24">Eswatini</option>
+                    <option value="24">Finland</option>
+                    <option value="24">France</option>
+                    <option value="24">Greece</option>
+                    <option value="24">Hungary</option>
+                    <option value="24">Iceland</option>
+                    <option value="24">India</option>
+                    <option value="24">Indonesia</option>
+                    <option value="24">Ireland</option>
+                    <option value="24">Italy</option>
+                    <option value="24">Kenya</option>
+                    <option value="24">Lathvia</option>
+                    <option value="24">Lithuania</option>
+                    <option value="24">Macao SAR China</option>
+                    <option value="24">Malaysia</option>
+                    <option value="24">Malta</option>
+                    <option value="24">Mexico</option>
+                    <option value="24">Mozambique</option>
+                    <option value="24">Netherlands</option>
+                    <option value="24">Newzealand</option>
+                    <option value="24">Nigeria</option>
+                    <option value="24">Norway</option>
+                    <option value="24">Phillipines</option>
+                    <option value="24">Poland</option>
+                    <option value="24">Portugal</option>
+                    <option value="24">Romania</option>
+                    <option value="24">Singapore</option>
+                    <option value="24">Slovakia</option>
+                    <option value="24">Slovania</option>
+                    <option value="24">South Africa</option>
+                    <option value="24">Spain</option>
+                    <option value="24">Sweden</option>
+                    <option value="24">Switzerland</option>
+                    <option value="24">Tanzania</option>
+                    <option value="24">Thailand</option>
+                    <option value="24">Tunisia</option>
+                    <option value="24">Turkey</option>
+                    <option value="24">Uganda</option>
+                    <option value="24">United Arab Emirates</option>
+                    <option value="24">United Kingdom</option>
+                    <option value="24">United States</option>
+                  </select>
+                </div>
+                <!-- text area -->
+                <div class="custom-textarea">
+                  <label class="textarea-label" for="message"
+                    >Your Message*</label
+                  >
+                  <textarea
+                    class="simple-input"
+                    name="message"
+                    id="message"
+                    cols="20"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <!-- contact inputs -->
+                <div class="contact-inputs">
+                  <div class="custom-input file-input">
+                    <label for="file" class="file-label">File:</label>
+                    <p class="file-input-text">no file chosen</p>
+                    <input
+                      class="simple-input"
+                      type="file"
+                      name="street"
+                      placeholder="Street*"
+                      id="file"
+                    />
+                    <i class="fa-solid fa-upload"></i>
                   </div>
                 </div>
-                <!-- 3 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/DIY.png"
-                          alt="DIY"
-                        />
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">News | 21/11/2023</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        DIY: Create your very own Advent calendar!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      Creative Advent calendars are the most beautiful way to
-                      brighten up your waiting time before Christmas. We have
-                      prepared a step-by-step guide for you to make your very
-                      own Advent calendar and fill it with lovely little items.
-                      Let&apos;s get started!
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
-                  </div>
+                <!-- agreement checkkbox -->
+                <div class="agreement">
+                  <input
+                    id="agreement"
+                    class="category-check"
+                    type="checkbox"
+                    aria-hidden="true"
+                  />
+                  <label for="agreement"
+                    >I have read and agree the <a href="#">privacy policy</a>.
+                  </label>
                 </div>
-                <!-- 4 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/watercolour.jpg"
-                          alt="watercolour"
-                        />
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">News | 09/08/2023</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        Watercolour Book: a step-by-step guide for creating
-                        magical watercolour motifs!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      You would like to paint watercolour pictures like a real
-                      pro? With our Watercolour Book you&apos;ll be well on your
-                      way. Check out our step-by-step guide on how to create the
-                      most colourful motifs!
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <!-- 5 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/top-model.jpg"
-                          alt="top-model"
-                        />
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">TOPModel | 10/01/2024</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        The TOPModel bucket list for good mood during the summer
-                        holidays!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      The summer holidays are here and with them plenty of time
-                      for good mood and exciting adventures! We have put
-                      together a bucket list for lots of fun.
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <!-- 6 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/secret-keeper.jpg"
-                          alt="secret-keeper"
-                        />
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">Depesche | 10/01/2024</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        The keeper of secrets: How to change the secret code of
-                        your diary with code and sound!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      You have a new Depesche diary with code and sound and want
-                      to set up or change your personal secret code? We tell you
-                      how to do it!
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-                <!-- 7 -->
-                <div class="item">
-                  <div class="news-item-img-content">
-                    <a href="#">
-                      <figure>
-                        <img
-                          class="news-item-img"
-                          src="../../assets/image/news/pssst.jpg"
-                          alt="pssst"
-                        />
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="news-item-text-content">
-                    <p class="news-date">TOPModel | 10/01/2024</p>
-                    <h3 class="news-title">
-                      <a href="#">
-                        Pssst, it shimmers, glitters and sparkles in the
-                        TOPModel collection BLING BLING!
-                      </a>
-                    </h3>
-                    <p class="news-text">
-                      The new TOPModel collection BLING BLING shines with super
-                      beautiful poodle motif on pink glitter background.
-                      Discover what is hidden behind it!
-                    </p>
-                    <a href="#" class="btn news-btn"
-                      >Read More<i class="fa-solid fa-chevron-right"></i
-                    ></a>
-                  </div>
+                <!-- submit -->
+                <div class="form-footer">
+                  <span>* required fields</span>
+                  <button class="btn btn-primary">
+                    Send<i class="fa-solid fa-chevron-right"></i>
+                  </button>
                 </div>
               </div>
-            </div>
-            <div class="btn-center">
-              <a href="#" class="btn btn-primary">
-                Show All
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
             </div>
           </div>
         </section>
