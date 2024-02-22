@@ -267,6 +267,13 @@
   .contact-form {
     width: 75%;
   }
+  .contact-form .custom-sort {
+    width: calc(50% - 16px);
+  }
+  .newsletter .contact-form,
+  .complaint .contact-form {
+    width: 100%;
+  }
   .contact-inputs,
   .double-input {
     flex-direction: row;
@@ -278,9 +285,33 @@
   .double-input .city-input {
     width: 60%;
   }
+  .complaint .double-input .zip-input {
+    width: 50%;
+  }
+  .complaint .double-input .city-input {
+    width: 50%;
+  }
   .custom-input,
   .double-input {
     width: 50%;
+  }
+  .newsletter .custom-input {
+    width: 100%;
+  }
+  .complaint .custom-input {
+    width: 50%;
+  }
+  .contact-list {
+    flex-direction: row;
+  }
+  .file-label {
+    width: calc(100% - 1rem);
+  }
+  .complaint .alert-notice {
+    width: calc(50% - 1rem);
+  }
+  .fa-upload {
+    right: 2rem;
   }
 }
 /* from 992px to 1199px */
@@ -432,8 +463,8 @@
   .custom-sort {
     width: 32%;
   }
-  .contact-form .custom-sort {
-    width: 50%;
+  .newsletter .contact-form {
+    width: 100%;
   }
   /* filter accordion */
   .search-body {

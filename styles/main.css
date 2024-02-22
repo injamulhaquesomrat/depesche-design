@@ -1800,15 +1800,23 @@ blockquote {
   font-size: 1.5rem;
   color: var(--dp-orange);
 }
-.agreement {
+.agreement,
+.complaint .alert-notice {
   margin-top: 4rem;
 }
-.agreement label {
+.newsletter .agreement,
+.complaint .agreement {
+  margin-top: 0rem;
+}
+.agreement label,
+.full-input .simple-input::placeholder {
   font-size: 0.875rem;
   color: #666;
   font-weight: 300;
+  text-transform: uppercase;
 }
-.agreement a {
+.agreement a,
+.complaint .alert-notice a {
   color: var(--dp-orange);
   text-decoration: none;
 }
@@ -1821,4 +1829,67 @@ blockquote {
   font-size: 0.875rem;
   font-weight: 300;
   color: #666;
+}
+.full-input {
+  margin-bottom: 2rem;
+}
+.complaint .alert-notice {
+  background-color: #cff4fc;
+  padding: 0.375rem 1rem;
+  color: #666;
+  line-height: 1.63;
+  font-weight: 300;
+}
+.fa-folder {
+  font-size: 2rem;
+  color: orange;
+}
+.job-item .col-8 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* accordion for  */
+.faq-accordion {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.faq-accordion-item {
+  background-color: #f4f4f4;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+.faq-accordion-btn {
+  padding: 22px 24px;
+}
+.faq-accordion-btn {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faq-accordion-btn .fa-chevron-down {
+  font-size: 1.25rem;
+  color: var(--dp-orange);
+  transition: all 0.5s ease-out;
+}
+.faq-accordion-info {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+  padding: 0 24px;
+  line-height: 2.13;
+}
+.faq-accordion-item.active .faq-accordion-info {
+  opacity: 1;
+  max-height: fit-content;
+  padding: 22px 24px;
+}
+.faq-accordion-item.active .fa-chevron-down {
+  transform: rotate(180deg);
 }

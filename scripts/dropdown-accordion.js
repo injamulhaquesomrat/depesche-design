@@ -59,3 +59,17 @@ $(document).ready(function () {
     $(".dropdown-content").toggle();
   });
 });
+
+// faq accordion
+$(document).ready(function () {
+  $(".faq-accordion-btn").click(function () {
+    var $accordionItem = $(this).closest(".faq-accordion-item");
+
+    if (!$accordionItem.hasClass("active")) {
+      $(".faq-accordion-item").removeClass("active");
+      $accordionItem.addClass("active");
+    } else {
+      $accordionItem.removeClass("active");
+    }
+  });
+});
