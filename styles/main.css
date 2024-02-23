@@ -1632,6 +1632,9 @@ blockquote {
   gap: 0.5rem;
   font-size: 0.875rem;
 }
+.news-breadcrumb li {
+  color: #b8b8b8;
+}
 .news-detail p {
   margin-bottom: 28px;
 }
@@ -1800,9 +1803,17 @@ blockquote {
   font-size: 1.5rem;
   color: var(--dp-orange);
 }
+/* complaint page */
 .agreement,
 .complaint .alert-notice {
   margin-top: 4rem;
+}
+.complaint .alert-notice {
+  background-color: #cff4fc;
+  padding: 0.375rem 1rem;
+  color: #666;
+  line-height: 1.63;
+  font-weight: 300;
 }
 .newsletter .agreement,
 .complaint .agreement {
@@ -1814,6 +1825,7 @@ blockquote {
   color: #666;
   font-weight: 300;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 .agreement a,
 .complaint .alert-notice a {
@@ -1833,13 +1845,8 @@ blockquote {
 .full-input {
   margin-bottom: 2rem;
 }
-.complaint .alert-notice {
-  background-color: #cff4fc;
-  padding: 0.375rem 1rem;
-  color: #666;
-  line-height: 1.63;
-  font-weight: 300;
-}
+
+/* download page */
 .fa-folder {
   font-size: 2rem;
   color: orange;
@@ -1850,7 +1857,7 @@ blockquote {
   gap: 2rem;
 }
 
-/* accordion for  */
+/* accordion for faq */
 .faq-accordion {
   max-width: 680px;
   margin: 0 auto;
@@ -1892,4 +1899,43 @@ blockquote {
 }
 .faq-accordion-item.active .fa-chevron-down {
   transform: rotate(180deg);
+}
+/* job details */
+.job-detail {
+  padding-block: 5rem;
+}
+.job-status {
+  margin-bottom: 30px;
+}
+.job-detail figure {
+  margin: 0;
+}
+.job-details-img {
+  width: 100%;
+  height: auto;
+}
+.job-details-img {
+  margin-block: 1.5rem;
+}
+/* job post */
+.job-post-title {
+  margin-block: 1.5rem;
+  text-transform: uppercase;
+}
+.job-post-mail,
+.job-post-title {
+  color: var(--dp-orange);
+}
+.job-post .btn-container {
+  margin-top: 0.75rem;
+}
+/* privacy policy */
+.policy-index-list {
+  margin-block: 1.5rem;
+  padding-left: 2.5rem;
+  color: #666;
+  font-weight: 300;
+}
+.policy-index-list li {
+  line-height: 2;
 }

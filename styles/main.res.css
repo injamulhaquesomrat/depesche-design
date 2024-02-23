@@ -25,6 +25,25 @@
   .news-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* job details page */
+  .job-post-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .job-post-img-container {
+    width: 40%;
+  }
+  .job-post-text-container {
+    width: 60%;
+  }
+  .job-post-title {
+    margin-block: 0.5rem;
+    text-transform: uppercase;
+  }
+  .job-post-text-container .hero-title {
+    margin-bottom: 0.5rem;
+  }
 }
 /* from 768px to 991px */
 @media (min-width: 768px) {
@@ -559,6 +578,16 @@
   /* latest news  */
   .news-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+  /* job details page */
+  /* job details */
+  .job-detail {
+    padding-block: 128px;
+  }
+  /* job post */
+  .job-post-container {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 /* from 1200 to 1439px */
