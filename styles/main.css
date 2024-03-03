@@ -1981,7 +1981,6 @@ blockquote {
   box-shadow: 0 4px 8px 0 hsla(0, 0%, 40%, 0.25);
   background-color: var(--dp-orange);
 }
-
 .product-badge {
   display: inline-flex;
   align-items: center;

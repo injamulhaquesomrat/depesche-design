@@ -332,6 +332,12 @@
   .fa-upload {
     right: 2rem;
   }
+  .product-information .product-info-title-list {
+    width: 30%;
+  }
+  .product-information .product-info-description-list {
+    width: 70%;
+  }
 }
 /* from 992px to 1199px */
 @media (min-width: 992px) {
