@@ -1267,10 +1267,10 @@ footer p {
   font-size: 0.75rem;
   font-weight: 700;
   color: #fff;
+  line-height: 1;
   position: absolute;
   right: 0.625rem;
   top: 0.625rem;
-  line-height: 1;
 }
 .product-img {
   width: 100%;
@@ -1629,6 +1629,7 @@ blockquote {
   padding: 0;
   margin: 0 0 30px;
   display: inline-flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   font-size: 0.875rem;
 }
@@ -1938,4 +1939,82 @@ blockquote {
 }
 .policy-index-list li {
   line-height: 2;
+}
+/* product-details */
+
+.product-img-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-img-big {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px;
+}
+.product-img-small {
+  padding: 0.25rem;
+  border: 1px solid #dee2e6;
+}
+.product-img-content2 {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+.product-img-content2 .slick-slide {
+  padding-bottom: 1rem;
+}
+.product-img-content2 .slick-slide .product-img-small {
+  margin: 0 auto;
+}
+.product-img-content2 .slick-current .product-img-small {
+  border: 1px solid #dee2e6;
+}
+.product-img-content2 .slick-current.slick-active .product-img-small {
+  border: 1px solid var(--dp-orange);
+}
+.slick-next,
+.slick-prev {
+  height: 3rem;
+  width: 3rem;
+  opacity: 0.8;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 8px 0 hsla(0, 0%, 40%, 0.25);
+  background-color: var(--dp-orange);
+}
+
+.product-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--dp-orange);
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  height: 1.25rem;
+  margin: 0;
+}
+.product-information {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.product-information ul {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  color: #666;
+  display: grid;
+  gap: 0.5rem;
+}
+.product-info-description-list {
+  font-weight: 300;
+}
+.product-text-details-content .text-body {
+  width: 100%;
+  margin: 0;
+}
+.product-text-details-content p {
+  line-height: 1.63;
 }
