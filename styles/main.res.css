@@ -338,6 +338,10 @@
   .product-information .product-info-description-list {
     width: 70%;
   }
+
+  .product-img-content2 {
+    margin-inline: 1rem;
+  }
 }
 /* from 992px to 1199px */
 @media (min-width: 992px) {
@@ -600,6 +604,7 @@
     display: flex;
     gap: 1.5rem;
   }
+
   .product-img-carousel,
   .product-text-details-content {
     width: 50%;

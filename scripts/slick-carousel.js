@@ -9,22 +9,24 @@ $(document).ready(function () {
   $(".product-img-content2").slick({
     dots: false,
     arrows: false,
-    infinite: false,
     speed: 300,
     asNavFor: ".product-img-content",
     focusOnSelect: true,
+    prevArrow:
+      '<span class="slick-prev-arrow"><i class="fa-solid fa-chevron-left"></i></span>',
+    nextArrow:
+      '<span class="slick-next-arrow"><i class="fa-solid fa-chevron-right"></i></span>',
     autoplay: true,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     vertical: true,
     responsive: [
       {
         breakpoint: 1440,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 6,
           slidesToScroll: 1,
-          infinite: true,
           vertical: true,
         },
       },
@@ -33,9 +35,8 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
           vertical: false,
-          centerMode: true,
+          arrows: true,
         },
       },
       {
@@ -43,6 +44,7 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
+          arrows: true,
           vertical: false,
         },
       },
@@ -51,6 +53,7 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          arrows: true,
           vertical: false,
         },
       },
