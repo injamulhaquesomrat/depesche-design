@@ -317,6 +317,37 @@ nav {
   opacity: 1;
   width: 60%;
 }
+.nav-options {
+  position: absolute;
+  top: -15rem;
+  background-color: white;
+  padding: 0;
+  display: none;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease-out;
+}
+.nav-options ul {
+  list-style: none;
+  padding: 0;
+}
+.nav-options ul li {
+  padding: 0.25rem;
+  cursor: pointer;
+}
+.nav-options a {
+  text-decoration: none;
+  color: #666;
+  transition: all 0.3s ease-out;
+}
+.nav-options li:hover a {
+  color: var(--dp-orange);
+}
+.menu-item:hover .nav-options {
+  display: block;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  top: 3.1rem;
+}
 
 /* dropdown navbar */
 .dropdown-navbar {
@@ -664,6 +695,9 @@ nav {
 }
 
 /* products section */
+.dropdown-products {
+  display: flex;
+}
 .products .owl-stage,
 .dropdown-products .owl-stage {
   padding: 40px 0 50px;
@@ -1273,8 +1307,7 @@ footer p {
   top: 0.625rem;
 }
 .product-img {
-  width: 100%;
-  max-width: 292px;
+  max-width: 100%;
   height: auto;
 }
 .age-item {
