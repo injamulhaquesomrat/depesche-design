@@ -68,6 +68,13 @@
   .newsletter-banner-bg-wave-mobile {
     display: none;
   }
+  .profile-item {
+    padding: 8px 16px;
+  }
+  .user-profile {
+    padding-top: 4px;
+    /* display: none; */
+  }
 
   /* dropdown body  */
   .accordion-body {
@@ -338,7 +345,6 @@
   .product-information .product-info-description-list {
     width: 70%;
   }
-
   .product-img-content2 {
     margin-inline: 1rem;
   }
@@ -383,6 +389,14 @@
   }
   .mobile-hero {
     display: none;
+  }
+  .brand .hero-bg-prop-2 {
+    bottom: 2rem;
+    left: 3.25rem;
+  }
+  .brand .banner-prop {
+    bottom: 0;
+    right: 3.25rem;
   }
 
   /* brands section */
@@ -477,6 +491,7 @@
   }
   .footer-service-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -628,7 +643,8 @@
   .menu-list {
     margin-right: auto;
   }
-  .search-icon {
+  .search-icon,
+  .profile-list {
     display: none;
   }
 

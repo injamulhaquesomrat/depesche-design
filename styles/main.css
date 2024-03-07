@@ -279,7 +279,6 @@ nav {
 .menu-list,
 .service-list {
   display: none;
-  align-items: center;
   list-style: none;
   margin: 0;
 }
@@ -342,11 +341,34 @@ nav {
 .nav-options li:hover a {
   color: var(--dp-orange);
 }
-.menu-item:hover .nav-options {
+.menu-item:hover .nav-options,
+.user-profile:hover .nav-options {
   display: block;
   padding-block: 1rem;
   padding-inline: 1.5rem;
   top: 3.1rem;
+}
+.user-profile:hover .nav-options {
+  right: 1rem;
+}
+.profile-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.profile-item .nav-link {
+  padding: 0;
+}
+.user-profile {
+  display: none;
+}
+.user-avatar {
+  height: 1.625rem;
+  width: 1.625rem;
+  border-radius: 5rem;
+  object-fit: cover;
+  margin-right: 0.5rem;
 }
 
 /* dropdown navbar */
@@ -574,19 +596,20 @@ nav {
 .hero-bg-prop,
 .hero-bg-prop-2 {
   position: absolute;
-  width: 120px;
   z-index: 100;
 }
 .hero-bg-prop {
   top: -80rem;
+  width: 120px;
   right: 0;
 }
 .hero-bg-prop-2 {
   bottom: -7rem;
+  width: 100px;
   left: -2rem;
 }
 .brand .hero-bg-prop-2 {
-  bottom: 0;
+  bottom: 4rem;
   left: 0;
 }
 
@@ -1675,7 +1698,8 @@ blockquote {
 .news-img {
   width: 100%;
 }
-.news-detail .btn-container {
+.news-detail .btn-container,
+.login-content .btn-container {
   margin: 3rem 0 1.5rem;
 }
 .news-detail .btn {
@@ -2062,4 +2086,31 @@ blockquote {
 }
 .product-text-details-content p {
   line-height: 1.63;
+}
+/* login section */
+.login-content {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.login-content .custom-input {
+  width: 100%;
+}
+.login-content .seaction-heading {
+  padding-bottom: 3rem;
+}
+.login-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.login-options a {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: var(--dp-orange);
+  padding-left: 1.5rem;
+}
+.login-content .agreement {
+  margin-top: 0;
+  text-align: left;
 }
