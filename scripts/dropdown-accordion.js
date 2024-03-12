@@ -26,7 +26,6 @@ $(document).ready(function () {
 });
 
 // filter accodion
-
 $(document).ready(function () {
   $(".filterBtn").on("click", function () {
     // Remove the active class from all accordion buttons
