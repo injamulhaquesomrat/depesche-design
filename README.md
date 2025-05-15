@@ -153,6 +153,7 @@ The catalog enables:
   --dp-gray: hsl(0, 0%, 72.16%);
   --dp-blue: hsl(202.22, 29.67%, 82.16%);
 }
+```
 
 ### ⚙️ Installation & Setup
 
