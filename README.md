@@ -68,6 +68,23 @@ Depesche-Design-System/
 
 ---
 
+### ⚙️ Installation & Setup
+
+This is a static HTML/CSS/JS project and does not require a build system.
+
+### Run locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/depesche-design-system.git
+cd depesche-design-system
+
+# Open in browser
+open index.html  # or manually open index.html in your browser
+````
+
+---
+
 ## 🧭 Navigation System
 
 A robust navigation framework supports both desktop and mobile devices:
@@ -153,19 +170,5 @@ The catalog enables:
   --dp-gray: hsl(0, 0%, 72.16%);
   --dp-blue: hsl(202.22, 29.67%, 82.16%);
 }
-```
-
-### ⚙️ Installation & Setup
-
-This is a static HTML/CSS/JS project and does not require a build system.
-
-### Run locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/depesche-design-system.git
-cd depesche-design-system
-
-# Open in browser
-open index.html  # or manually open index.html in your browser
 ````
+
