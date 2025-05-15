@@ -10,6 +10,25 @@ The **Depesche Design** is a fully responsive and component-driven frontend fram
 
 ---
 
+
+
+### ⚙️ Installation & Setup
+
+This is a static HTML/CSS/JS project and does not require a build system.
+
+### Run locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/depesche-design-system.git
+cd depesche-design-system
+
+# Open in browser
+open index.html  # or manually open index.html in your browser
+````
+
+---
+
 ## 🎯 Purpose and Scope
 
 This system is built to:
@@ -65,23 +84,6 @@ Depesche-Design-System/
 │ └── service/ # Customer service info
 └── registration/ # Login and registration pages
 ```
-
----
-
-### ⚙️ Installation & Setup
-
-This is a static HTML/CSS/JS project and does not require a build system.
-
-### Run locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/depesche-design-system.git
-cd depesche-design-system
-
-# Open in browser
-open index.html  # or manually open index.html in your browser
-````
 
 ---
 
